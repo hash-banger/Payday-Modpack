@@ -1,0 +1,21 @@
+{
+	"blt_version" : 2,
+	"name" : "Kick a friend",
+	"description" : "With this you can kick your friend from the game, and he will be able to rejoin",
+	"author" : "FishTaco",
+	"contact" : "http://steamcommunity.com/id/zo0mer170/",
+	"version" : "4",
+	"image" : "kick.png",
+	"color" : "0 0 255",
+	"updates" :
+	[
+		{
+			"revision" : 4,
+			"identifier" : "Kickfriend"
+		}
+	],
+	"hooks" : 
+	[
+		{"hook_id" : "lib/network/base/basenetworksession", "script_path" : "Kick_friend.lua"}
+	]
+}

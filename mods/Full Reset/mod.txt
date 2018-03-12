@@ -1,0 +1,13 @@
+{
+	"name" : "Full Clear Progress",
+	"description" : "A mod that changes the 'Reset Progress' button to not only reset your PAYDAY 2 in-game save data, but also reset achievements as well as reset additional trackers shown on sites like PD2 Stats/FBI Files.",
+	"author" : "GREAT BIG BUSHY BEARD (Original author) - DMC (BLT 2.x update)",
+	"contact" : "simon@lastbullet.net - steamcommunity.com/id/qt_314/ (bug this guy instead)",
+	"version" : "2.01",
+	"blt_version" : 2,
+	"image" : "icon.png",
+	"color" : "255 188 5",
+	"hooks" : [
+		{ "hook_id" : "lib/managers/menumanager", "script_path" : "MenuManager.lua" }
+	]
+}

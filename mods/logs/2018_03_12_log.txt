@@ -1,0 +1,954 @@
+04:51:44 PM Log:  (..\src\debug\blt_debug.cpp:113) Command line: "C:\SteamLibrary\steamapps\common\PAYDAY 2\payday2_win32_release.exe"
+04:51:44 PM Log:  (..\platform_src\signatures\signatures.cpp:225) Scanning for signatures in payday2_win32_release.exe
+04:51:45 PM WARNING:  (..\platform_src\signatures\signatures.cpp:189) Failed to locate function node_from_xml_vr
+04:51:45 PM WARNING:  (..\platform_src\signatures\signatures.cpp:189) Failed to locate function try_open_base_vr
+04:51:45 PM WARNING:  (..\platform_src\signatures\signatures.cpp:189) Failed to locate function luaL_newstate_vr
+04:51:45 PM Log:  (..\platform_src\signatures\signatures.cpp:256) Scanned for 46 signatures in 1016 milliseconds with 0 cache misses
+04:51:45 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:51:47 PM Log:  (..\src\tweaker\wrenloader.cpp:28) [WREN] XML-Tweaking Bundle File ef0953d4112bbb36.5438de50d62a13f2
+04:51:48 PM Log:  (..\src\http\http.cpp:43) CURL_INITD
+04:51:48 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:51:48 PM Lua: [BLT] Setup...
+04:51:48 PM Lua: [BLT] Loading module: 	BLTLogs
+04:51:48 PM Lua: [BLT] Loading module: 	BLTModManager
+04:51:48 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:51:48 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:51:48 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:51:48 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:51:48 PM Lua: [BLT] Loading mods for state: table: 0x001d0980
+04:51:48 PM Lua: [BLT] Loading mod: base
+04:51:48 PM Lua: [BLT] Loading mod: BeardLib
+04:51:48 PM Lua: [BLT] Loading mod: BigLobby3
+04:51:48 PM Lua: [BLT] Loading mod: Down Counter
+04:51:48 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:51:48 PM Lua: [BLT] Loading mod: Full Reset
+04:51:48 PM Lua: [BLT] Loading mod: HoloInfo
+04:51:48 PM Lua: [BLT] Loading mod: HopLib
+04:51:48 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:51:48 PM Lua: [BLT] Loading mod: Kick a friend
+04:51:48 PM Lua: [BLT] Loading mod: KillFeed
+04:51:48 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:51:48 PM Lua: [BLT] Loading mod: Mod List Lite
+04:51:48 PM Lua: [BLT] Loading mod: Money In Hud
+04:51:48 PM Lua: [BLT] Loading mod: Pager Contour
+04:51:48 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:51:48 PM Lua: [BLT] Loading mod: SilentAssassin
+04:51:48 PM Lua: [] Could not load file 'mods/saves/blt_data.txt', no data loaded...
+04:51:48 PM Lua: [BLT] Setting up mod: 	base
+04:51:48 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:51:48 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:51:48 PM Lua: [BLT] Setting up mod: 	HopLib
+04:51:48 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:51:48 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:51:48 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:51:48 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:51:48 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:51:48 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:51:48 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:51:48 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:51:48 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:51:48 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:51:48 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:51:48 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:51:48 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:51:48 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:51:48 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:51:48 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:51:48 PM Lua: [BLT] Setup...
+04:51:48 PM Lua: [BLT] Loading module: 	BLTLogs
+04:51:48 PM Lua: [BLT] Loading module: 	BLTModManager
+04:51:48 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:51:48 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:51:48 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:51:48 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:51:48 PM Lua: [BLT] Loading mods for state: table: 0x001d0960
+04:51:48 PM Lua: [BLT] Loading mod: base
+04:51:48 PM Lua: [BLT] Loading mod: BeardLib
+04:51:48 PM Lua: [BLT] Loading mod: BigLobby3
+04:51:48 PM Lua: [BLT] Loading mod: Down Counter
+04:51:48 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:51:48 PM Lua: [BLT] Loading mod: Full Reset
+04:51:48 PM Lua: [BLT] Loading mod: HoloInfo
+04:51:48 PM Lua: [BLT] Loading mod: HopLib
+04:51:48 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:51:48 PM Lua: [BLT] Loading mod: Kick a friend
+04:51:48 PM Lua: [BLT] Loading mod: KillFeed
+04:51:48 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:51:48 PM Lua: [BLT] Loading mod: Mod List Lite
+04:51:48 PM Lua: [BLT] Loading mod: Money In Hud
+04:51:48 PM Lua: [BLT] Loading mod: Pager Contour
+04:51:48 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:51:48 PM Lua: [BLT] Loading mod: SilentAssassin
+04:51:48 PM Lua: [] Could not load file 'mods/saves/blt_data.txt', no data loaded...
+04:51:48 PM Lua: [BLT] Setting up mod: 	base
+04:51:48 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:51:48 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:51:48 PM Lua: [BLT] Setting up mod: 	HopLib
+04:51:48 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:51:48 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:51:48 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:51:48 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:51:48 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:51:48 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:51:48 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:51:48 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:51:48 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:51:48 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:51:48 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:51:48 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:51:48 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:51:48 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:51:48 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Utils.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModCore.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/CustomPackageManager.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/TweakDataHelper.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModManager.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/FileManager.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/FrameworkBase.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/MapFramework.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/AddFramework.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/MenuUI.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/TextBoxBase.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ContextMenu.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/BaseItem.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Item.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Menu.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/KeyBind.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Group.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ImageButton.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Toggle.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ComboBox.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Slider.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/TextBox.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ColorTextBox.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/MenuDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/FileBrowserDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/ColorDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/ListDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/InputDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SelectListDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SimpleListDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/DownloadDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SimpleSelectListDialog.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/MenuHelperPlus.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/JsonUtils.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModAssetUpdateManager.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModuleBase.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/MenuDialogManager.lua
+04:51:48 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/BeardLibModsMenu.lua
+04:51:48 PM Lua: [BeardLib] Registered module with key AddFiles
+04:51:48 PM Lua: [BeardLib] Registered module with key Classes
+04:51:48 PM Lua: [BeardLib] Registered module with key contact
+04:51:48 PM Lua: [BeardLib] Registered module with key CrimeSpreeMission
+04:51:48 PM Lua: [BeardLib] Registered module with key DLC
+04:51:48 PM Lua: [BeardLib] Registered module with key GlobalValue
+04:51:48 PM Lua: [BeardLib] Registered module with key HeistMusic
+04:51:48 PM Lua: [BeardLib] Registered module with key Hooks
+04:51:48 PM Lua: [BeardLib] Registered module with key Keybind
+04:51:48 PM Lua: [BeardLib] Registered module with key level
+04:51:48 PM Lua: [BeardLib] Registered module with key instance
+04:51:48 PM Lua: [BeardLib] Registered module with key Localization
+04:51:48 PM Lua: [BeardLib] Registered module with key MaskMaterial
+04:51:48 PM Lua: [BeardLib] Registered module with key Mask
+04:51:48 PM Lua: [BeardLib] Registered module with key MaskPattern
+04:51:48 PM Lua: [BeardLib] Registered module with key Melee
+04:51:48 PM Lua: [BeardLib] Registered module with key Menu
+04:51:48 PM Lua: [BeardLib] Registered module with key MenuMusic
+04:51:48 PM Lua: [BeardLib] Registered module with key AssetUpdates
+04:51:48 PM Lua: [BeardLib] Registered module with key Music
+04:51:48 PM Lua: [BeardLib] Registered module with key narrative
+04:51:48 PM Lua: [BeardLib] Registered module with key Options
+04:51:48 PM Lua: [BeardLib] Registered module with key Package
+04:51:48 PM Lua: [BeardLib] Registered module with key ScriptMods
+04:51:48 PM Lua: [BeardLib] Registered module with key WeaponMod
+04:51:48 PM Lua: [BeardLib] Registered module with key Weapon
+04:51:48 PM Lua: [BeardLib] Registered module with key WeaponNew
+04:51:48 PM Lua: step: 0
+04:51:48 PM Lua: step: 18.4375
+04:51:48 PM Lua: step: 36.875
+04:51:48 PM Lua: step: 55.3125
+04:51:48 PM Lua: step: 73.75
+04:51:48 PM Lua: step: 92.1875
+04:51:48 PM Lua: step: 110.625
+04:51:48 PM Lua: step: 129.0625
+04:51:48 PM Lua: step: 147.5
+04:51:48 PM Lua: step: 165.9375
+04:51:48 PM Lua: step: 184.375
+04:51:48 PM Lua: step: 202.8125
+04:51:48 PM Lua: step: 221.25
+04:51:48 PM Lua: step: 239.6875
+04:51:48 PM Lua: step: 258.125
+04:51:48 PM Lua: step: 276.5625
+04:51:48 PM Lua: step: 295
+04:51:48 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:51:48 PM Lua: [BLT] Setup...
+04:51:48 PM Lua: [BLT] Loading module: 	BLTLogs
+04:51:48 PM Lua: [BLT] Loading module: 	BLTModManager
+04:51:48 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:51:48 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:51:48 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:51:48 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:51:48 PM Lua: [BLT] Loading mods for state: table: 0x34bc2b40
+04:51:48 PM Lua: [BLT] Loading mod: base
+04:51:48 PM Lua: [BLT] Loading mod: BeardLib
+04:51:48 PM Lua: [BLT] Loading mod: BigLobby3
+04:51:48 PM Lua: [BLT] Loading mod: Down Counter
+04:51:48 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:51:48 PM Lua: [BLT] Loading mod: Full Reset
+04:51:48 PM Lua: [BLT] Loading mod: HoloInfo
+04:51:48 PM Lua: [BLT] Loading mod: HopLib
+04:51:48 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:51:48 PM Lua: [BLT] Loading mod: Kick a friend
+04:51:48 PM Lua: [BLT] Loading mod: KillFeed
+04:51:48 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:51:48 PM Lua: [BLT] Loading mod: Mod List Lite
+04:51:48 PM Lua: [BLT] Loading mod: Money In Hud
+04:51:48 PM Lua: [BLT] Loading mod: Pager Contour
+04:51:48 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:51:48 PM Lua: [BLT] Loading mod: SilentAssassin
+04:51:48 PM Lua: [] Could not load file 'mods/saves/blt_data.txt', no data loaded...
+04:51:48 PM Lua: [BLT] Setting up mod: 	base
+04:51:48 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:51:48 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:51:48 PM Lua: [BLT] Setting up mod: 	HopLib
+04:51:48 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:51:48 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:51:48 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:51:48 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:51:48 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:51:48 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:51:48 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:51:48 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:51:48 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:51:48 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:51:48 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:51:48 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:51:48 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:51:48 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:51:48 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:51:51 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:51 PM Log:  (..\src\InitiateState.cpp:439) https://api.modwork.shop/api.php?command=CompareVersion&did=14924&vid=2.87&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 220
+04:51:51 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) https://znix.xyz/paydaymods/updates/meta.php?id=payday2blt - 2695
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) https://znix.xyz/paydaymods/updates/meta.php?id=payday2bltdll - 2696
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=mll - 2697
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=hoplib - 2698
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=resmod-biglobby - 2699
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=interact-time-hint - 2700
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=silentassassin - 2701
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=lobbytools - 2702
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=MIH - 2703
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=PC - 2704
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=EAI - 2705
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=DCS - 2706
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=kill_feed - 2707
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=Kickfriend - 2708
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:54 PM Log:  (..\src\InitiateState.cpp:439) http://api.paydaymods.com/updates/retrieve/?mod[0]=LPI - 2709
+04:51:54 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:54 PM Lua: [Updates] Received update data for 'payday2blt'
+04:51:54 PM Lua: [Updates] Received update data for 'payday2bltdll'
+04:51:54 PM Lua: [Updates] Comparing hash data:
+Server: 5d7d4efcb92aa0d5a05e5cde4a5fe8288463a03d08bdaae59db856d12a1ccefc
+ Local: 5d7d4efcb92aa0d5a05e5cde4a5fe8288463a03d08bdaae59db856d12a1ccefc
+04:51:54 PM Lua: [Updates] Comparing hash data:
+Server: e81280743100abd7dbaebd4e54723e22294bf79e493a4bbd77c5b0b56b905321
+ Local: e81280743100abd7dbaebd4e54723e22294bf79e493a4bbd77c5b0b56b905321
+04:51:55 PM Lua: [Updates] Received update data for 'interact-time-hint'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 1570584c3463c9454a43a9e83902b74aaccbf91d3ec199974d408ffc96d9e902
+ Local: 1570584c3463c9454a43a9e83902b74aaccbf91d3ec199974d408ffc96d9e902
+04:51:55 PM Lua: [Updates] Received update data for 'mll'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 87d1b7518579d268b42864580bc8f512d741c768f6a95581a04145a41747d8c3
+ Local: 87d1b7518579d268b42864580bc8f512d741c768f6a95581a04145a41747d8c3
+04:51:55 PM Lua: [Updates] Received update data for 'lobbytools'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: nil
+ Local: 4ce6facbcd0e47c2a1a664f852ddb41433071430c0163d13edf93fd5279dec16
+04:51:55 PM Lua: [Updates] Received update data for 'PC'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: bd649c56d74cdbeaa2f2a34605997a913ff1734b12bb1a1c5e83a761f18a13a6
+ Local: bd649c56d74cdbeaa2f2a34605997a913ff1734b12bb1a1c5e83a761f18a13a6
+04:51:55 PM Lua: [Updates] Received update data for 'MIH'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: db53f3ec02847fc8d587abfd97b6fb0c0782cd140fc2c580f8a70a1b769f63b4
+ Local: db53f3ec02847fc8d587abfd97b6fb0c0782cd140fc2c580f8a70a1b769f63b4
+04:51:55 PM Lua: [Updates] Received update data for 'EAI'
+04:51:55 PM Lua: [Updates] Received update data for 'hoplib'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 74f88978c20acb72226bd6afbe3eba99c8e1eb44d6caac65b7b9ad2a83832c7b
+ Local: 74f88978c20acb72226bd6afbe3eba99c8e1eb44d6caac65b7b9ad2a83832c7b
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 09f432133e20c0451ffb60b9590770f52356944b1d6d287d870d2ca98b03d4d3
+ Local: 09f432133e20c0451ffb60b9590770f52356944b1d6d287d870d2ca98b03d4d3
+04:51:55 PM Lua: [Updates] Received update data for 'DCS'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 0ecd4c129bf07e7552760549aab1dfaf00f53050526558009889d8825ccced55
+ Local: 0ecd4c129bf07e7552760549aab1dfaf00f53050526558009889d8825ccced55
+04:51:55 PM Lua: [Updates] Received update data for 'kill_feed'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 4e5de7eb6ef59510a3ebffcdd0b3727bdbb0982082767582aebe6351185fcd17
+ Local: 4e5de7eb6ef59510a3ebffcdd0b3727bdbb0982082767582aebe6351185fcd17
+04:51:55 PM Lua: [Updates] Received update data for 'LPI'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 7e09b9192a17b3a77d50d383b0365c4255bc0ab79594000c691f21904148d011
+ Local: 7e09b9192a17b3a77d50d383b0365c4255bc0ab79594000c691f21904148d011
+04:51:55 PM Lua: [Updates] Received update data for 'Kickfriend'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 460fb9eba09b853c8849191f73ecd406f8b22a528fddb0f357ec779cc901b9a1
+ Local: 460fb9eba09b853c8849191f73ecd406f8b22a528fddb0f357ec779cc901b9a1
+04:51:55 PM Lua: [Updates] Received update data for 'silentassassin'
+04:51:55 PM Lua: [Updates] Comparing hash data:
+Server: 55ba63f4d3a725b3bb9026649d943c4eebd398136001e6d9d0a0229b8a656181
+ Local: 55ba63f4d3a725b3bb9026649d943c4eebd398136001e6d9d0a0229b8a656181
+04:51:56 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:56 PM Log:  (..\src\InitiateState.cpp:439) https://api.modwork.shop/api.php?command=AssocFiles&did=14924&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 2715
+04:51:56 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:56 PM Lua: [BeardLib] [AssetUpdates] Downloading assets from url: https://api.modwork.shop/api.php?command=DownloadFile&fid=11238&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU
+04:51:56 PM Log:  (..\src\InitiateState.cpp:425) Incoming HTTP Request/Request
+04:51:56 PM Log:  (..\src\InitiateState.cpp:439) https://api.modwork.shop/api.php?command=DownloadFile&fid=11238&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 2418
+04:51:56 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+04:51:57 PM Lua: [BeardLib] [INFO] Finished downloading assets
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Assets/
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Assets/guis/
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Assets/guis/textures/
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Assets/guis/textures/beardlib_logo.texture
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Assets/guis/textures/menu_ui_icons.texture
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/BeardLibCore.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/BeardLibInit.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/AddFramework.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/BeardLibModsMenu.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/CustomPackageManager.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/ColorDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/DownloadDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/FileBrowserDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/InputDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/ListDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/MenuDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/MenuDialogManager.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/SelectListDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/SimpleListDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Dialogs/SimpleSelectListDialog.lua
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/
+04:51:57 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/ElementCustomSound.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/ElementEnvironment.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/ElementExecuteWithCode.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/ElementMoveUnit.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/ElementOverrideInstigator.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/ElementPushInstigator.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Elements/ElementTeleportPlayer.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/FileIO.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/FileManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/FrameworkBase.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/JsonUtils.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/MapFramework.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/BaseItem.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/ColorTextBox.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/ComboBox.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/ContextMenu.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/Group.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/ImageButton.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/Item.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/KeyBind.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/Menu.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/MenuUI.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/Slider.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/TextBox.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/TextBoxBase.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Menu/Toggle.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/MenuHelperPlus.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/ModAssetUpdateManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/ModCore.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/ModManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/ModuleBase.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Providers/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Providers/ModWorkshop.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Providers/Payday2Concepts.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Providers/PaydayMods.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/TweakDataHelper.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Classes/Utils.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Config.xml
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Classes/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Classes/ExampleClass.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/config.xml
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Core.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Hooks/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Hooks/TweakData.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Localization/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Localization/english.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/Localization/russian.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/mod.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/ScriptData/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Examples/Mod template/ScriptData/ExampleScriptMerge.xml
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/BeardLibModsMenuButton.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/ClientNetworkSession.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/CoreSequenceManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/CoreSystem.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/CoreWorldDefinition.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/CrimeNetManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/EnvironmentManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/Fixes.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/GamePlayCentralManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/KillzoneManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/MenuInput.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/MenuItemColorButton.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/MenuManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/MissionManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/MusicManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/NetworkHooks.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/NetworkMatchmakingSteam.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/NetworkPeer.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/PreTweakData.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/ScrollablePanel.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/Setup.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/SystemMenuManager.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Hooks/TweakData.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Localization/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Localization/english.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Localization/french.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Localization/italian.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Localization/korean.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Localization/russian.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Localization/spanish.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/mod.txt
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/AddFilesModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/ClassesModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/ContactModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/CrimeSpreeMissionModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/DLCModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/GlobalValueModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/HeistMusicModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/HooksModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/KeybindModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/LevelModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/LocalizationModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/MaskMaterialModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/MaskModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/MaskPatternModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/MeleeModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/MenuModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/MenuMusicModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/ModAssetsModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/MusicModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/NarrativeModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/OptionModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/PackageModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/ScriptReplacementsModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/WeaponModModule.lua
+04:51:58 PM Log:  (..\src\util\compression.cpp:125) Extracting to mods/BeardLib/Modules/WeaponModule.lua
+04:52:20 PM Lua: [BLT] Performing save...
+04:52:20 PM Lua: [BLT] Save complete? true
+04:52:25 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to -
+04:52:26 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to =
+04:52:26 PM Lua: [BLT] Performing save...
+04:52:26 PM Lua: [BLT] Save complete? true
+04:52:29 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:52:29 PM Lua: [BLT] Setup...
+04:52:29 PM Lua: [BLT] Loading module: 	BLTLogs
+04:52:29 PM Lua: [BLT] Loading module: 	BLTModManager
+04:52:29 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:52:29 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:52:29 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:52:29 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:52:29 PM Lua: [BLT] Loading mods for state: table: 0x373524a0
+04:52:29 PM Lua: [BLT] Loading mod: base
+04:52:29 PM Lua: [BLT] Loading mod: BeardLib
+04:52:29 PM Lua: [BLT] Loading mod: BigLobby3
+04:52:29 PM Lua: [BLT] Loading mod: Down Counter
+04:52:29 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:52:29 PM Lua: [BLT] Loading mod: Full Reset
+04:52:29 PM Lua: [BLT] Loading mod: HoloInfo
+04:52:29 PM Lua: [BLT] Loading mod: HopLib
+04:52:29 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:52:29 PM Lua: [BLT] Loading mod: Kick a friend
+04:52:29 PM Lua: [BLT] Loading mod: KillFeed
+04:52:29 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:52:29 PM Lua: [BLT] Loading mod: Mod List Lite
+04:52:29 PM Lua: [BLT] Loading mod: Money In Hud
+04:52:29 PM Lua: [BLT] Loading mod: Pager Contour
+04:52:29 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:52:29 PM Lua: [BLT] Loading mod: SilentAssassin
+04:52:29 PM Lua: [BLT] Setting up mod: 	base
+04:52:29 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:52:29 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:52:29 PM Lua: [BLT] Setting up mod: 	HopLib
+04:52:29 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:52:29 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:52:29 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:52:29 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:52:29 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:52:29 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:52:29 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:52:29 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:52:29 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:52:29 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:52:29 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:52:29 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:52:29 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:52:29 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:52:29 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:52:29 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to -
+04:52:29 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to =
+04:52:29 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:52:29 PM Lua: [BLT] Setup...
+04:52:29 PM Lua: [BLT] Loading module: 	BLTLogs
+04:52:29 PM Lua: [BLT] Loading module: 	BLTModManager
+04:52:29 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:52:29 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:52:29 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:52:29 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:52:29 PM Lua: [BLT] Loading mods for state: table: 0x57463760
+04:52:29 PM Lua: [BLT] Loading mod: base
+04:52:29 PM Lua: [BLT] Loading mod: BeardLib
+04:52:29 PM Lua: [BLT] Loading mod: BigLobby3
+04:52:29 PM Lua: [BLT] Loading mod: Down Counter
+04:52:29 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:52:29 PM Lua: [BLT] Loading mod: Full Reset
+04:52:29 PM Lua: [BLT] Loading mod: HoloInfo
+04:52:29 PM Lua: [BLT] Loading mod: HopLib
+04:52:29 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:52:29 PM Lua: [BLT] Loading mod: Kick a friend
+04:52:29 PM Lua: [BLT] Loading mod: KillFeed
+04:52:29 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:52:29 PM Lua: [BLT] Loading mod: Mod List Lite
+04:52:29 PM Lua: [BLT] Loading mod: Money In Hud
+04:52:29 PM Lua: [BLT] Loading mod: Pager Contour
+04:52:29 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:52:29 PM Lua: [BLT] Loading mod: SilentAssassin
+04:52:29 PM Lua: [BLT] Setting up mod: 	base
+04:52:29 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:52:29 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:52:29 PM Lua: [BLT] Setting up mod: 	HopLib
+04:52:29 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:52:29 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:52:29 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:52:29 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:52:29 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:52:29 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:52:29 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:52:29 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:52:29 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:52:29 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:52:29 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:52:29 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:52:29 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:52:29 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:52:29 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:52:29 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to -
+04:52:29 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to =
+04:52:30 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:52:30 PM Lua: [BLT] Setup...
+04:52:30 PM Lua: [BLT] Loading module: 	BLTLogs
+04:52:30 PM Lua: [BLT] Loading module: 	BLTModManager
+04:52:30 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:52:30 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:52:30 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:52:30 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:52:30 PM Lua: [BLT] Loading mods for state: table: 0x38092ca0
+04:52:30 PM Lua: [BLT] Loading mod: base
+04:52:30 PM Lua: [BLT] Loading mod: BeardLib
+04:52:30 PM Lua: [BLT] Loading mod: BigLobby3
+04:52:30 PM Lua: [BLT] Loading mod: Down Counter
+04:52:30 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:52:30 PM Lua: [BLT] Loading mod: Full Reset
+04:52:30 PM Lua: [BLT] Loading mod: HoloInfo
+04:52:30 PM Lua: [BLT] Loading mod: HopLib
+04:52:30 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:52:30 PM Lua: [BLT] Loading mod: Kick a friend
+04:52:30 PM Lua: [BLT] Loading mod: KillFeed
+04:52:30 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:52:30 PM Lua: [BLT] Loading mod: Mod List Lite
+04:52:30 PM Lua: [BLT] Loading mod: Money In Hud
+04:52:30 PM Lua: [BLT] Loading mod: Pager Contour
+04:52:30 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:52:30 PM Lua: [BLT] Loading mod: SilentAssassin
+04:52:30 PM Lua: [BLT] Setting up mod: 	base
+04:52:30 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:52:30 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:52:30 PM Lua: [BLT] Setting up mod: 	HopLib
+04:52:30 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:52:30 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:52:30 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:52:30 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:52:30 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:52:30 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:52:30 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:52:30 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:52:30 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:52:30 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:52:30 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:52:30 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:52:30 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:52:30 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:52:30 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:52:30 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to -
+04:52:30 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to =
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Utils.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModCore.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/CustomPackageManager.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/TweakDataHelper.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModManager.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/FileManager.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/FrameworkBase.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/MapFramework.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/AddFramework.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/MenuUI.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/TextBoxBase.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ContextMenu.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/BaseItem.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Item.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Menu.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/KeyBind.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Group.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ImageButton.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Toggle.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ComboBox.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Slider.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/TextBox.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ColorTextBox.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/MenuDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/FileBrowserDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/ColorDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/ListDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/InputDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SelectListDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SimpleListDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/DownloadDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SimpleSelectListDialog.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/MenuHelperPlus.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/JsonUtils.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModAssetUpdateManager.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModuleBase.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/MenuDialogManager.lua
+04:52:30 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/BeardLibModsMenu.lua
+04:52:30 PM Lua: [BeardLib] Registered module with key AddFiles
+04:52:30 PM Lua: [BeardLib] Registered module with key Classes
+04:52:30 PM Lua: [BeardLib] Registered module with key contact
+04:52:30 PM Lua: [BeardLib] Registered module with key CrimeSpreeMission
+04:52:30 PM Lua: [BeardLib] Registered module with key DLC
+04:52:30 PM Lua: [BeardLib] Registered module with key GlobalValue
+04:52:30 PM Lua: [BeardLib] Registered module with key HeistMusic
+04:52:30 PM Lua: [BeardLib] Registered module with key Hooks
+04:52:30 PM Lua: [BeardLib] Registered module with key Keybind
+04:52:30 PM Lua: [BeardLib] Registered module with key level
+04:52:30 PM Lua: [BeardLib] Registered module with key instance
+04:52:30 PM Lua: [BeardLib] Registered module with key Localization
+04:52:30 PM Lua: [BeardLib] Registered module with key MaskMaterial
+04:52:30 PM Lua: [BeardLib] Registered module with key Mask
+04:52:30 PM Lua: [BeardLib] Registered module with key MaskPattern
+04:52:30 PM Lua: [BeardLib] Registered module with key Melee
+04:52:30 PM Lua: [BeardLib] Registered module with key Menu
+04:52:30 PM Lua: [BeardLib] Registered module with key MenuMusic
+04:52:30 PM Lua: [BeardLib] Registered module with key AssetUpdates
+04:52:30 PM Lua: [BeardLib] Registered module with key Music
+04:52:30 PM Lua: [BeardLib] Registered module with key narrative
+04:52:30 PM Lua: [BeardLib] Registered module with key Options
+04:52:30 PM Lua: [BeardLib] Registered module with key Package
+04:52:30 PM Lua: [BeardLib] Registered module with key ScriptMods
+04:52:30 PM Lua: [BeardLib] Registered module with key WeaponMod
+04:52:30 PM Lua: [BeardLib] Registered module with key Weapon
+04:52:30 PM Lua: [BeardLib] Registered module with key WeaponNew
+04:52:30 PM Lua: step: 0
+04:52:30 PM Lua: step: 18.4375
+04:52:30 PM Lua: step: 36.875
+04:52:30 PM Lua: step: 55.3125
+04:52:30 PM Lua: step: 73.75
+04:52:30 PM Lua: step: 92.1875
+04:52:30 PM Lua: step: 110.625
+04:52:30 PM Lua: step: 129.0625
+04:52:30 PM Lua: step: 147.5
+04:52:30 PM Lua: step: 165.9375
+04:52:30 PM Lua: step: 184.375
+04:52:30 PM Lua: step: 202.8125
+04:52:30 PM Lua: step: 221.25
+04:52:30 PM Lua: step: 239.6875
+04:52:30 PM Lua: step: 258.125
+04:52:30 PM Lua: step: 276.5625
+04:52:30 PM Lua: step: 295
+04:52:30 PM FATAL ERROR:  (..\src\InitiateState.cpp:317) mods/Endless Assault Indicator/endless.lua:14: attempt to index global 'HUDAssaultCorner' (a nil value)
+stack traceback:
+	mods/Endless Assault Indicator/endless.lua:14: in main chunk
+	[C]: in function 'dofile'
+	mods/base/base.lua:129: in function 'RunHookFile'
+	mods/base/base.lua:121: in function 'RunHookTable'
+	mods/base/base.lua:151: in function 'require'
+	[string "lib/setups/gamesetup.lua"]:13: in main chunk
+	[C]: in function 'require'
+	mods/base/base.lua:150: in function 'require'
+	[string "lib/setups/networkgamesetup.lua"]:1: in main chunk
+	[C]: in function 'require'
+	mods/base/base.lua:150: in function 'require'
+	[string "lib/entry.lua"]:6: in main chunk
+	[C]: in function 'require'
+	mods/base/base.lua:150: in function 'require'
+	[string "core/lib/coreentry.lua"]:19: in main chunk
+04:52:30 PM Lua: [Info] Interact time hint was successfully loaded!
+04:52:33 PM Lua: [1] @46620.meme: Game started
+04:52:40 PM Lua: [1] @46620.meme: Game restarted
+04:52:42 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:52:42 PM Lua: [BLT] Setup...
+04:52:42 PM Lua: [BLT] Loading module: 	BLTLogs
+04:52:42 PM Lua: [BLT] Loading module: 	BLTModManager
+04:52:42 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:52:42 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:52:42 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:52:42 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:52:42 PM Lua: [BLT] Loading mods for state: table: 0x35762ae0
+04:52:42 PM Lua: [BLT] Loading mod: base
+04:52:42 PM Lua: [BLT] Loading mod: BeardLib
+04:52:42 PM Lua: [BLT] Loading mod: BigLobby3
+04:52:42 PM Lua: [BLT] Loading mod: Down Counter
+04:52:42 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:52:42 PM Lua: [BLT] Loading mod: Full Reset
+04:52:42 PM Lua: [BLT] Loading mod: HoloInfo
+04:52:42 PM Lua: [BLT] Loading mod: HopLib
+04:52:42 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:52:42 PM Lua: [BLT] Loading mod: Kick a friend
+04:52:42 PM Lua: [BLT] Loading mod: KillFeed
+04:52:42 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:52:42 PM Lua: [BLT] Loading mod: Mod List Lite
+04:52:42 PM Lua: [BLT] Loading mod: Money In Hud
+04:52:42 PM Lua: [BLT] Loading mod: Pager Contour
+04:52:42 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:52:42 PM Lua: [BLT] Loading mod: SilentAssassin
+04:52:42 PM Lua: [BLT] Setting up mod: 	base
+04:52:42 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:52:42 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:52:42 PM Lua: [BLT] Setting up mod: 	HopLib
+04:52:42 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:52:42 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:52:42 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:52:42 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:52:42 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:52:42 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:52:42 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:52:42 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:52:42 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:52:42 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:52:42 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:52:42 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:52:42 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:52:42 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:52:42 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:52:42 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to -
+04:52:42 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to =
+04:52:42 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:52:42 PM Lua: [BLT] Setup...
+04:52:42 PM Lua: [BLT] Loading module: 	BLTLogs
+04:52:42 PM Lua: [BLT] Loading module: 	BLTModManager
+04:52:42 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:52:42 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:52:42 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:52:42 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:52:42 PM Lua: [BLT] Loading mods for state: table: 0x31750c40
+04:52:42 PM Lua: [BLT] Loading mod: base
+04:52:42 PM Lua: [BLT] Loading mod: BeardLib
+04:52:42 PM Lua: [BLT] Loading mod: BigLobby3
+04:52:42 PM Lua: [BLT] Loading mod: Down Counter
+04:52:42 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:52:42 PM Lua: [BLT] Loading mod: Full Reset
+04:52:42 PM Lua: [BLT] Loading mod: HoloInfo
+04:52:42 PM Lua: [BLT] Loading mod: HopLib
+04:52:42 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:52:42 PM Lua: [BLT] Loading mod: Kick a friend
+04:52:42 PM Lua: [BLT] Loading mod: KillFeed
+04:52:42 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:52:42 PM Lua: [BLT] Loading mod: Mod List Lite
+04:52:42 PM Lua: [BLT] Loading mod: Money In Hud
+04:52:42 PM Lua: [BLT] Loading mod: Pager Contour
+04:52:42 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:52:42 PM Lua: [BLT] Loading mod: SilentAssassin
+04:52:42 PM Lua: [BLT] Setting up mod: 	base
+04:52:42 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:52:42 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:52:42 PM Lua: [BLT] Setting up mod: 	HopLib
+04:52:42 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:52:42 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:52:42 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:52:42 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:52:42 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:52:42 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:52:42 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:52:42 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:52:42 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:52:42 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:52:42 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:52:42 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:52:42 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:52:42 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:52:42 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:52:42 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to -
+04:52:42 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to =
+04:52:42 PM Log:  (..\src\InitiateState.cpp:748) Initiating Hook
+04:52:42 PM Lua: [BLT] Setup...
+04:52:42 PM Lua: [BLT] Loading module: 	BLTLogs
+04:52:42 PM Lua: [BLT] Loading module: 	BLTModManager
+04:52:42 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+04:52:42 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+04:52:42 PM Lua: [BLT] Loading module: 	BLTLocalization
+04:52:42 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+04:52:42 PM Lua: [BLT] Loading mods for state: table: 0x38092ca0
+04:52:42 PM Lua: [BLT] Loading mod: base
+04:52:42 PM Lua: [BLT] Loading mod: BeardLib
+04:52:42 PM Lua: [BLT] Loading mod: BigLobby3
+04:52:42 PM Lua: [BLT] Loading mod: Down Counter
+04:52:42 PM Lua: [BLT] Loading mod: Endless Assault Indicator
+04:52:42 PM Lua: [BLT] Loading mod: Full Reset
+04:52:42 PM Lua: [BLT] Loading mod: HoloInfo
+04:52:42 PM Lua: [BLT] Loading mod: HopLib
+04:52:42 PM Lua: [BLT] Loading mod: Interact Time Hint
+04:52:42 PM Lua: [BLT] Loading mod: Kick a friend
+04:52:42 PM Lua: [BLT] Loading mod: KillFeed
+04:52:42 PM Lua: [BLT] Loading mod: Lobby Player Info
+04:52:42 PM Lua: [BLT] Loading mod: Mod List Lite
+04:52:42 PM Lua: [BLT] Loading mod: Money In Hud
+04:52:42 PM Lua: [BLT] Loading mod: Pager Contour
+04:52:42 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+04:52:42 PM Lua: [BLT] Loading mod: SilentAssassin
+04:52:42 PM Lua: [BLT] Setting up mod: 	base
+04:52:42 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+04:52:42 PM Lua: [BLT] Setting up mod: 	BeardLib
+04:52:42 PM Lua: [BLT] Setting up mod: 	HopLib
+04:52:42 PM Lua: [BLT] Setting up mod: 	BigLobby3
+04:52:42 PM Lua: [BLT] Setting up mod: 	Interact Time Hint
+04:52:42 PM Lua: [BLT] Setting up mod: 	SilentAssassin
+04:52:42 PM Lua: [BLT] Setting up mod: 	HoloInfo
+04:52:42 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+04:52:42 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+04:52:42 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+04:52:42 PM Lua: [BLT] Setting up mod: 	Money In Hud
+04:52:42 PM Lua: [BLT] Setting up mod: 	Pager Contour
+04:52:42 PM Lua: [BLT] Setting up mod: 	Endless Assault Indicator
+04:52:42 PM Lua: [BLT] Setting up mod: 	Down Counter
+04:52:42 PM Lua: [BLT] Setting up mod: 	KillFeed
+04:52:42 PM Lua: [BLT] Setting up mod: 	Full Reset
+04:52:42 PM Lua: [BLT] Setting up mod: 	Kick a friend
+04:52:42 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+04:52:42 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to -
+04:52:42 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to =
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Utils.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModCore.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/CustomPackageManager.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/TweakDataHelper.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModManager.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/FileManager.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/FrameworkBase.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/MapFramework.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/AddFramework.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/MenuUI.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/TextBoxBase.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ContextMenu.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/BaseItem.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Item.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Menu.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/KeyBind.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Group.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ImageButton.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Toggle.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ComboBox.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/Slider.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/TextBox.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Menu/ColorTextBox.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/MenuDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/FileBrowserDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/ColorDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/ListDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/InputDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SelectListDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SimpleListDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/DownloadDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/SimpleSelectListDialog.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/MenuHelperPlus.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/JsonUtils.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModAssetUpdateManager.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/ModuleBase.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/Dialogs/MenuDialogManager.lua
+04:52:42 PM Lua: [BeardLib] Loading class    mods/BeardLib/Classes/BeardLibModsMenu.lua
+04:52:42 PM Lua: [BeardLib] Registered module with key AddFiles
+04:52:42 PM Lua: [BeardLib] Registered module with key Classes
+04:52:42 PM Lua: [BeardLib] Registered module with key contact
+04:52:42 PM Lua: [BeardLib] Registered module with key CrimeSpreeMission
+04:52:42 PM Lua: [BeardLib] Registered module with key DLC
+04:52:42 PM Lua: [BeardLib] Registered module with key GlobalValue
+04:52:42 PM Lua: [BeardLib] Registered module with key HeistMusic
+04:52:42 PM Lua: [BeardLib] Registered module with key Hooks
+04:52:42 PM Lua: [BeardLib] Registered module with key Keybind
+04:52:42 PM Lua: [BeardLib] Registered module with key level
+04:52:42 PM Lua: [BeardLib] Registered module with key instance
+04:52:42 PM Lua: [BeardLib] Registered module with key Localization
+04:52:42 PM Lua: [BeardLib] Registered module with key MaskMaterial
+04:52:42 PM Lua: [BeardLib] Registered module with key Mask
+04:52:42 PM Lua: [BeardLib] Registered module with key MaskPattern
+04:52:42 PM Lua: [BeardLib] Registered module with key Melee
+04:52:42 PM Lua: [BeardLib] Registered module with key Menu
+04:52:42 PM Lua: [BeardLib] Registered module with key MenuMusic
+04:52:42 PM Lua: [BeardLib] Registered module with key AssetUpdates
+04:52:42 PM Lua: [BeardLib] Registered module with key Music
+04:52:42 PM Lua: [BeardLib] Registered module with key narrative
+04:52:42 PM Lua: [BeardLib] Registered module with key Options
+04:52:42 PM Lua: [BeardLib] Registered module with key Package
+04:52:42 PM Lua: [BeardLib] Registered module with key ScriptMods
+04:52:42 PM Lua: [BeardLib] Registered module with key WeaponMod
+04:52:42 PM Lua: [BeardLib] Registered module with key Weapon
+04:52:42 PM Lua: [BeardLib] Registered module with key WeaponNew
+04:52:42 PM Lua: step: 0
+04:52:42 PM Lua: step: 18.4375
+04:52:42 PM Lua: step: 36.875
+04:52:42 PM Lua: step: 55.3125
+04:52:42 PM Lua: step: 73.75
+04:52:42 PM Lua: step: 92.1875
+04:52:42 PM Lua: step: 110.625
+04:52:42 PM Lua: step: 129.0625
+04:52:42 PM Lua: step: 147.5
+04:52:42 PM Lua: step: 165.9375
+04:52:42 PM Lua: step: 184.375
+04:52:42 PM Lua: step: 202.8125
+04:52:42 PM Lua: step: 221.25
+04:52:42 PM Lua: step: 239.6875
+04:52:42 PM Lua: step: 258.125
+04:52:42 PM Lua: step: 276.5625
+04:52:42 PM Lua: step: 295
+04:52:42 PM FATAL ERROR:  (..\src\InitiateState.cpp:317) mods/Endless Assault Indicator/endless.lua:14: attempt to index global 'HUDAssaultCorner' (a nil value)
+stack traceback:
+	mods/Endless Assault Indicator/endless.lua:14: in main chunk
+	[C]: in function 'dofile'
+	mods/base/base.lua:129: in function 'RunHookFile'
+	m

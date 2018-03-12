@@ -1,0 +1,20 @@
+{
+    "name": "Interact time hint",
+    "description": "Show Interact time hint when seeing interactable objects.",
+    "author": "kash",
+    "contact": "http://steamcommunity.com/id/_kash/",
+    "version": "v1.0.4",
+    "priority": 50,
+    "blt_version": 2,
+    "color": "0 255 0",
+    "hooks": [
+        {
+            "hook_id": "lib/units/interactions/interactionext", "script_path": "load.lua"
+        }
+    ],
+    "updates": [
+        {
+            "identifier": "interact-time-hint"
+        }
+    ]
+}

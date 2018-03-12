@@ -1,0 +1,3 @@
+{
+    "hud_assault_endless" : "ENDLESS POLICE ASSAULT IN PROGRESS"
+}

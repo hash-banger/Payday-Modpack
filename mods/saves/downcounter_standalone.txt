@@ -1,0 +1,1 @@
+{"announce_chat_mode":2,"announce_custody":false,"announce_extras":false,"only_announce_lowdowns_mode":true,"announce_alert_mode":3,"announce_docbags":false}

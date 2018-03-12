@@ -1,0 +1,34 @@
+r10:
+Made a fix on Beneath the Mountain when the game sometimes forget end the endless assault
+
+r9:
+Added mod icon
+
+r8:
+Fixed mod.txt
+
+r7:
+Fixed when second assault on WatchDogs Day 2 is endless if you were client
+Hostage panel hides on endless assault
+
+r6:
+Code optimization
+Fixed issues on Safehouse Raid
+
+r5:
+Code cleanup
+Minor code optimization
+
+r4:
+Endless Assault will have now a padlock icon (same as for Defeat The Capitan)
+Fixed clients having yellow assault banners when they drop-in to an endless assault
+
+r3:
+Optimized code
+Fixed yellow assault banner when you are in the mutated lobby
+
+r2:
+Endless Indicator will trigger on the client IF the host have it
+
+r1:
+First Release
