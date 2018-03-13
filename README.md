@@ -27,4 +27,4 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - Remove AI Name Panel
    - removeexclamation
    - Remove Teammates Outline
-   - SilentAssassin
+   - Secret Pager
