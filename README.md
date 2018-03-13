@@ -28,3 +28,4 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - removeexclamation
    - Remove Teammates Outline
    - Secret Pager
+   - Straight to main menu
