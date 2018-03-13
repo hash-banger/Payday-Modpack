@@ -19,6 +19,7 @@ IF %a%==3 goto 3UPDATE
 
 :1start
 echo COMING SOON! SELF UPDATER WORKS!
+pause
 
 :1remove
 cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
@@ -38,6 +39,7 @@ git fetch origin master >nul 2>&1
 
 :2start
 echo COMING SOON! SELF UPDATER WORKS!
+pause
 
 :3UPDATE
 echo WARNING! DO THIS OUTSIDE OF THE PAYDAY DIRECTORY OR IT WILL DELETE THE ASSETS FOLDER!
