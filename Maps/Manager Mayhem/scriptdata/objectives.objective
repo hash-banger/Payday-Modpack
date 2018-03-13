@@ -1,0 +1,35 @@
+<table>
+	<objective description="quack_obj_mm2_001_loud" id="quack_obj_mm2_001_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_001_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_002_loud" id="quack_obj_mm2_002_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_002_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_002b_loud" id="quack_obj_mm2_002b_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_002b_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_002c_loud" id="quack_obj_mm2_002c_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_002c_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_003_loud" id="quack_obj_mm2_003_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_003_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_004a_loud" id="quack_obj_mm2_004a_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_004a_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_004b_loud" id="quack_obj_mm2_004b_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_004b_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_005_loud" id="quack_obj_mm2_005_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_005_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_006_loud" id="quack_obj_mm2_006_loud" level_id="manager_get" prio="1" text="quack_obj_mm2_006_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2_fail" id="quack_obj_mm2_fail" level_id="manager_get" prio="1" text="quack_obj_mm2_fail_short" xp_weight="1"/>
+	
+	<objective description="quack_obj_mm2a_001_stealth" id="quack_obj_mm2a_001_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_001_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_002_stealth" id="quack_obj_mm2a_002_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_002_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_003_stealth" id="quack_obj_mm2a_003_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_003_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_003b_stealth" id="quack_obj_mm2a_003b_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_003b_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_004_stealth" id="quack_obj_mm2a_004_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_004_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_005_stealth" id="quack_obj_mm2a_005_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_005_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_006_stealth" id="quack_obj_mm2a_006_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_006_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_006b_stealth" id="quack_obj_mm2a_006b_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_006b_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_006c_stealth" id="quack_obj_mm2a_006c_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_006c_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_007_stealth" id="quack_obj_mm2a_007_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_007_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_008_stealth" id="quack_obj_mm2a_008_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_008_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_009_stealth" id="quack_obj_mm2a_009_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_009_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_010_stealth" id="quack_obj_mm2a_010_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_010_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_011_stealth" id="quack_obj_mm2a_011_stealth" level_id="manager_find" prio="1" text="quack_obj_mm2a_011_stealth_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_escape" id="quack_obj_mm2a_escape" level_id="manager_find" prio="1" text="quack_obj_mm2a_escape_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_001_loud" id="quack_obj_mm2a_001_loud" level_id="manager_find" prio="1" text="quack_obj_mm2a_001_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_002_loud" id="quack_obj_mm2a_002_loud" level_id="manager_find" prio="1" text="quack_obj_mm2a_002_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_003_loud" id="quack_obj_mm2a_003_loud" level_id="manager_find" prio="1" text="quack_obj_mm2a_003_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_004_loud" id="quack_obj_mm2a_004_loud" level_id="manager_find" prio="1" text="quack_obj_mm2a_004_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_005_loud" id="quack_obj_mm2a_005_loud" level_id="manager_find" prio="1" text="quack_obj_mm2a_005_loud_short" xp_weight="1"/>
+	<objective description="quack_obj_mm2a_006_loud" id="quack_obj_mm2a_006_loud" level_id="manager_find" prio="1" text="quack_obj_mm2a_006_loud_short" xp_weight="1"/>
+	
+</table>

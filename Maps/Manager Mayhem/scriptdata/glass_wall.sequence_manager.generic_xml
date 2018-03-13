@@ -1,0 +1,126 @@
+<generic_scriptdata type="table" metatable="sequence_manager">
+	<entry index="1" type="table" _id="17" metatable="unit">
+		<entry index="1" type="table" _id="16" metatable="sequence">
+			<entry index="1" type="table" _id="2" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_glass' "/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_dmg' "/>
+			</entry>
+			<entry index="3" type="table" _id="3" metatable="sound">
+				<entry key="action" type="string" value="'play'"/>
+				<entry key="event" type="string" value="'glass_crack'"/>
+				<entry key="object" type="string" value=" 'e_effect1' "/>
+			</entry>
+			<entry index="4" type="table" _id="1" metatable="attention">
+				<entry key="giveaway" type="string" value="'glass'"/>
+				<entry key="object_name" type="string" value="'e_effect1'"/>
+				<entry key="operation" type="string" value="'add'"/>
+				<entry key="preset_name" type="string" value="'prop_ene_ntl'"/>
+			</entry>
+			<entry key="attention" type="table" _ref="1"/>
+			<entry key="name" type="string" value=" 'destroy_01' "/>
+			<entry key="object" type="table" _ref="2"/>
+			<entry key="once" type="boolean" value="true"/>
+			<entry key="sound" type="table" _ref="3"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="2" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="8" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_glass' "/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_glass_dmg' "/>
+			</entry>
+			<entry index="3" type="table" _id="9" metatable="sound">
+				<entry key="action" type="string" value="'play'"/>
+				<entry key="event" type="string" value="'window_medium_shatter'"/>
+				<entry key="object" type="string" value="'e_effect1'"/>
+			</entry>
+			<entry index="4" type="table" _id="6" metatable="decal_mesh">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'dm_glass'"/>
+			</entry>
+			<entry index="5" type="table" _id="7" metatable="effect">
+				<entry key="name" type="string" value="'effects/payday2/particles/window/storefront_window_small'"/>
+				<entry key="parent" type="string" value="object( 'e_effect1' )"/>
+				<entry key="position" type="string" value="v()"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_shattered' "/>
+			</entry>
+			<entry index="7" type="table" _id="5" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'window1' "/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_glow'"/>
+			</entry>
+			<entry index="9" type="table" _id="4" metatable="alert">
+			</entry>
+			<entry key="alert" type="table" _ref="4"/>
+			<entry key="body" type="table" _ref="5"/>
+			<entry key="decal_mesh" type="table" _ref="6"/>
+			<entry key="effect" type="table" _ref="7"/>
+			<entry key="name" type="string" value=" 'destroy_02' "/>
+			<entry key="object" type="table" _ref="8"/>
+			<entry key="once" type="boolean" value="true"/>
+			<entry key="sound" type="table" _ref="9"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="3" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="10" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_glow'"/>
+			</entry>
+			<entry index="2" type="table" _id="18" metatable="run_sequence">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'destroy_02' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'glow_on'"/>
+			<entry key="object" type="table" _ref="10"/>
+			<entry key="run_sequence" type="table" _ref="18"/>
+		</entry>
+		<entry index="4" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="11" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_glow'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'glow_off'"/>
+			<entry key="object" type="table" _ref="11"/>
+		</entry>
+		<entry index="5" type="table" _id="15" metatable="body">
+			<entry index="1" type="table" _id="14" metatable="endurance">
+				<entry index="1" type="table" _id="12" metatable="run_sequence">
+					<entry key="name" type="string" value="'destroy_01'"/>
+				</entry>
+				<entry key="bullet" type="number" value="1"/>
+				<entry key="explosion" type="number" value="1"/>
+				<entry key="melee" type="number" value="0.5"/>
+				<entry key="run_sequence" type="table" _ref="12"/>
+			</entry>
+			<entry index="2" type="table" metatable="endurance">
+				<entry index="1" type="table" _id="13" metatable="run_sequence">
+					<entry key="name" type="string" value="'destroy_02'"/>
+				</entry>
+				<entry key="bullet" type="number" value="2"/>
+				<entry key="explosion" type="number" value="1"/>
+				<entry key="melee" type="number" value="0.5"/>
+				<entry key="run_sequence" type="table" _ref="13"/>
+			</entry>
+			<entry key="endurance" type="table" _ref="14"/>
+			<entry key="name" type="string" value="'window1'"/>
+		</entry>
+		<entry key="body" type="table" _ref="15"/>
+		<entry key="sequence" type="table" _ref="16"/>
+	</entry>
+	<entry key="unit" type="table" _ref="17"/>
+</generic_scriptdata>

@@ -1,0 +1,161 @@
+<table name="Manager Mayhem">
+	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="quackertree" name_id="heist_contact_quackertree" package="packages/contact_the_dentist"/>
+	<Localization default="english.txt" directory="loc"/>
+	<Hooks>
+		<hook file="hooks/Interactiontweak.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		<hook file="hooks/CrimeSpreeHook.lua" source_file="lib/tweak_data/crimespreetweakdata"/>
+	</Hooks>
+	<narrative briefing_event="" contact="quackertree" id="manager_mayhem">
+		<chain>
+			<table level_id="manager_find" type="d" type_id="heist_type_assault"/>
+			<table level_id="manager_get" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="25000"/>
+			<value_node value="60000"/>
+			<value_node value="100000"/>
+			<value_node value="150000"/>
+			<value_node value="200000"/>
+			<value_node value="225000"/>
+			<value_node value="300000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="8500"/>
+			<value_node value="8500"/>
+			<value_node value="8500"/>
+			<value_node value="8500"/>
+			<value_node value="8500"/>
+			<value_node value="8500"/>
+			<value_node value="8500"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="75000"/>
+			<value_node value="125000"/>
+			<value_node value="200000"/>
+			<value_node value="300000"/>
+			<value_node value="400000"/>
+			<value_node value="475000"/>
+			<value_node value="600000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" ghost_bonus="0.05" id="manager_get" max_bags="1">
+		<add directory="assets"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+		</assets>
+		<include directory="levels/manager_get">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="packages/narr_cage"/>
+			<value_node value="levels/narratives/bain/cage/world"/>
+			<value_node value="levels/narratives/bain/cage/world_sounds"/>
+			<value_node value="levels/narratives/bain/cage/tunnel/tunnel"/>
+			<value_node value="levels/narratives/bain/cage/temp_art/temp_art"/>
+			<value_node value="levels/narratives/bain/cage/world/world"/>
+			<value_node value="levels/narratives/bain/cage/editor_only/editor_only"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/instances/unique/pet_truck_escape/world/world"/>
+			<value_node value="levels/narratives/classics/red2/editor_only/editor_only"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/narratives/bain/diamond_store/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world/world"/>
+			<value_node value="levels/instances/unique/hox_breakout_elevator001/world/world"/>
+			<value_node value="levels/instances/unique/shout_crowbar/world/world"/>
+		</packages>
+		<script_data_mods directory="/scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="scriptdata/glass_wall.sequence_manager.generic_xml" replacement_type="generic_xml" target_ext="sequence_manager" target_path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall">
+				<options mode="merge"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" ghost_bonus="0.15" id="manager_find" max_bags="7">
+		<add file="levels/manager_find/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="spotter"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<include directory="levels/manager_find">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="packages/narr_cage"/>
+			<value_node value="packages/narr_framing_3"/>
+			<value_node value="packages/narr_rat"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world"/>
+			<value_node value="levels/narratives/bain/cage/world_sounds"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_cafe/temp/temp"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/classics/red2/editor_only/editor_only"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_2/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world/world"/>
+			<value_node value="levels/instances/unique/hox_breakout_road001/world/world"/>
+			<value_node value="levels/instances/unique/hox_fbi_archive_shelf/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_helipad/world/world"/>
+		</packages>
+		<script_data_mods directory="/scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AssetUpdates id="20439" provider="modworkshop" use_local_dir="true" version="1.4"/>
+</table>
