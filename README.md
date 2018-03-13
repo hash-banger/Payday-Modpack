@@ -8,6 +8,7 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
    - Beardlib
    - Biglobby
+   - Create Empty Lobbies
    - Endless Assault Indicator
    - FreeFlightCam
    - HoloInfo
@@ -24,5 +25,6 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - PD2-Lobby-Toolsv1.2
    - Press2Hold
    - Remove AI Name Panel
+   - removeexclamation
    - Remove Teammates Outline
    - SilentAssassin
