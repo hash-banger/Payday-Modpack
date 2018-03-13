@@ -3,3 +3,26 @@
 This was made so I can have me friends update the modpack we use for Payday 2. It just makes it easier for everyone to stay updated.
 
 I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
+
+## Mods that are in this pack
+
+   - Beardlib
+   - Biglobby
+   - Endless Assault Indicator
+   - FreeFlightCam
+   - HoloInfo
+   - HopLib
+   - Interact Time Hint
+   - Jump and Duck in Casing Mode
+   - Kick a friend
+   - KillFeed
+   - Lobby Player Info
+   - Mod List Light
+   - Money in HUD
+   - Offical Gage Shop
+   - Page Contour
+   - PD2-Lobby-Toolsv1.2
+   - Press2Hold
+   - Remove AI Name Panel
+   - Remove Teammates Outline
+   - SilentAssassin
