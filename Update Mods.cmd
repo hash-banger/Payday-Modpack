@@ -39,12 +39,10 @@ exit
 
 :2start
 cls
-echo Please Specify what the Payday Directory is and it will install to there
-set /p dir=
 echo What drive is this game on
 set /p dri=
 %dri%:
-cd %dir%
+cd "%dri%:\Steam\steamapps\common\PAYDAY 2"
 goto 2UPDATE
 
 :2UPDATE
