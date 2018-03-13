@@ -10,12 +10,10 @@ C:
 echo What do you want to do.
 echo 1. Update mods from outside of the Payday 2 Dir.
 echo 2. Update mods from inside of the Payday 2 Dir.
-echo 3. Update this CMD script.
 
 set /p a=
 IF %a%==1 goto 1remove
 IF %a%==2 goto 2start
-IF %a%==3 goto 3UPDATE
 
 :1remove
 cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
@@ -49,16 +47,3 @@ git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
 git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
-
-:3UPDATE
-echo WARNING! DO THIS OUTSIDE OF THE PAYDAY DIRECTORY OR IT WILL DELETE THE ASSETS FOLDER!
-pause
-git init . >nul || goto :git
-git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
-git fetch --all
-git reset --hard origin/master
-git fetch origin master >nul 2>&1
-rm -rf mods
-rm -rf assets
-rm IPHLPAPI.dll
-rm Maps
