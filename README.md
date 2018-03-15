@@ -29,3 +29,7 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - Remove Teammates Outline
    - Secret Pager
    - Straight to main menu
+
+## Discord the modpack is used for
+
+[The Schmuck Room](https://discord.gg/YtwfQrD)
