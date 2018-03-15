@@ -35,6 +35,9 @@ git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
 git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
+rm -rf .git
+rm README.md
+rm "Update Mods.cmd"
 exit
 
 :2start
@@ -53,6 +56,9 @@ git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
 git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
+rm -rf .git
+rm README.md
+rm "Update Mods.cmd"
 exit
 
 :3UPDATE
@@ -63,4 +69,7 @@ git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
 git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
+rm -rf .git
+rm README.md
+rm "Update Mods.cmd"
 exit
