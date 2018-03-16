@@ -3,12 +3,12 @@
 	"description": "",
 	"author": "Sonic",
 	"contact": "http://steamcommunity.com/profiles/76561198078556212/",
-	"version": "10",
+	"version": "11",
 	"blt_version" : 2,
 	"image" : "eai.png",
 	"updates" : [
     		{
-        		"revision" : 10,
+        		"revision" : 11,
         		"identifier" : "EAI"
     		}
 	],
@@ -18,8 +18,8 @@
 			"script_path": "endless.lua"
 		},
 		{
-			"hook_id": "lib/managers/dialogmanager",
-			"script_path": "endless.lua"
+			"hook_id": "lib/managers/hud/hudassaultcorner",
+			"script_path": "beneath_the_mountain_fix.lua"
 		}
 	]
 }

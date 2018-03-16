@@ -1,3 +1,11 @@
+r11:
+These missions will show Endless Assault regardless if you are client or host:
+* Safe House Nightmare
+* The Biker Heist Day 2
+* Cursed Kill Room
+Will add more missions later
+Little optimization
+
 r10:
 Made a fix on Beneath the Mountain when the game sometimes forget end the endless assault
 
