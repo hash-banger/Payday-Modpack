@@ -1,3 +1,8 @@
+r12:
+Fixed hostage panel overlapping casing banner when starting a heist
+Fixed endless assault on Framing Frame Day 1/Art Gallery when it's not
+Added Thai language (thanks for NewPJzuza for translation)
+
 r11:
 These missions will show Endless Assault regardless if you are client or host:
 * Safe House Nightmare

@@ -1,8 +1,13 @@
-EAI = {}
+_G.EAI = _G.EAI or {}
 EAI.modpath = ModPath
-EAI.locfile_english = ModPath .. "/en.txt"
+EAI.locfile_english = ModPath .. "/loc/english.txt"
+EAI.locfile_thailand = ModPath .. "/loc/thailand.txt"
 Hooks:Add("LocalizationManagerPostInit", "EAI_Localization", function(loc)
-	loc:load_localization_file( EAI.locfile_english )
+	if SystemFS:exists(Application:base_path() .. "mods/PD2TH/mod.txt", true) and SystemFS:exists(Application:base_path() .. "PD2TL") and SystemFS:exists(Application:base_path() .. "assets/mod_overrides/ThaiFont") then
+		loc:load_localization_file( EAI.locfile_thailand )
+	else
+		loc:load_localization_file( EAI.locfile_english )
+	end
 end)
 
 local _f_init = HUDAssaultCorner.init
@@ -13,8 +18,8 @@ function HUDAssaultCorner:init(hud, full_hud, tweak_hud)
 	self.multiplayer_game = false
 	self.endless_client = false
 	self.always_endless_assault = false
-	self._assault = false
-	self._assault_endless_color = Color(1, 1, 0, 0)
+	self._assault_endless_color = self._noreturn_color
+	self._no_endless_assault_override = false
 	if managers.mutators:are_mutators_active() then
 		self._assault_endless_color = Color(255, 106, 67, 255) / 255
 	end
@@ -171,7 +176,9 @@ function HUDAssaultCorner:_show_icon_assaultbox(...)
 	if self.banner_color == self._assault_endless_color or self.banner_color == self._vip_assault_color then
 		self:_hide_hostages()
 	else -- I hate you Watch Dogs Day 2
- 		self:_show_hostages()
+		if not self._casing then
+ 			self:_show_hostages()
+ 		end
 	end
 end
 
@@ -190,6 +197,9 @@ function HUDAssaultCorner:_close_assault_box()
 end]]
 
 function HUDAssaultCorner:GetEndlessAssault()
+	if self._no_endless_assault_override then
+		return false
+	end
 	if Network:is_server() then
 		if managers.groupai:state():get_hunt_mode() then
 			if multiplayer_game then -- Only send when playing Multiplayer and atleast 1 client must have it.
