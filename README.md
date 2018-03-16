@@ -6,6 +6,8 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
 ## Mods that are in this pack
 
+### BLT
+
    - Beardlib
    - Biglobby
    - Create Empty Lobbies
@@ -29,6 +31,11 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - Remove Teammates Outline
    - Secret Pager
    - Straight to main menu
+
+### mod_overrides
+
+   - Cloakers, Oh yeah Mr Krabs
+   - Uh dude that would be **S A L T**
 
 ## Discord the modpack is used for
 
