@@ -1,6 +1,6 @@
 @echo off
 color 0a
-title Payday mod updater V3.7.1
+title Payday mod updater V3.7.2
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
@@ -43,8 +43,8 @@ git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
 rmdir /s /q .git
-rm README.md
-rm "Update Mods.cmd"
+del README.md
+del "Update Mods.cmd"
 exit
 
 :2start
@@ -59,7 +59,7 @@ goto 2UPDATE
 cls
 rmdir /s /q mods
 rmdir /s /q assets\mod_overrides
-rm IPHLPAPI.dll
+del IPHLPAPI.dll
 rmdir /s /q Maps
 goto 2UPDATE
 
@@ -72,15 +72,15 @@ git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
 rmdir /s /q .git
-rm README.md
-rm "Update Mods.cmd"
+del README.md
+del "Update Mods.cmd"
 exit
 
 :3UPDATE
 cls
 rmdir /s /q mods
 rmdir /s /q assets\mod_overrides
-rm IPHLPAPI.dll
+del IPHLPAPI.dll
 rmdir /s /q Maps
 git gc
 git init . >nul
@@ -89,8 +89,8 @@ git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
 rmdir /s /q .git
-rm README.md
-rm "Update Mods.cmd"
+del README.md
+del "Update Mods.cmd"
 exit
 
 :4BETA
@@ -98,7 +98,7 @@ cls
 cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
 rmdir /s /q mods
 rmdir /s /q assets\mod_overrides
-rm IPHLPAPI.dll
+del IPHLPAPI.dll
 rmdir /s /q Maps
 git clone --branch beta https://github.com/46620/Payday-Modpack
 cd Payday-Modpack
