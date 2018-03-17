@@ -1,32 +1,36 @@
 @echo off
 color 0a
-title Payday mod updater V3.4 BETA
+title Payday mod updater V3.6 BETA
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
+echo This script will remove your mods before you run the updater, backup the saves folder before running the rest of the script
+pause >nul
 C:
+
+:cleanup
+
+cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
+rmdir /s /q mods
+rmdir /s /q assets\mod_overrides
+rm IPHLPAPI.dll
+rmdir /s /q Maps
+rm "Update Mods.cmd"
 
 :ask
 echo What do you want to do.
 echo 1. Update mods from outside of the Payday 2 Dir.
 echo 2. Update mods from outside of the Payday 2 Dir (Not default install).
 echo 3. Update mods from inside of the Payday 2 Dir.
-echo 4. Update this script
+echo 4. Update mods to BETA BRANCH (C: drive only)
+echo 5. Update this script
 
 set /p a=
-IF %a%==1 goto 1remove
+IF %a%==1 goto 1Update
 IF %a%==2 goto 2start
 IF %a%==3 goto 3UPDATE
-IF %a%==4 goto 4UPDATE
-
-:1remove
-cls
-cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
-rmdir /s /q mods
-rmdir /s /q assets\mod_overrides
-rm IPHLPAPI.dll
-rmdir /s /q Maps
-goto 1Update
+IF %a%==4 goto 4BETA
+IF %a%==5 goto 5UPDATE
 
 :1Update
 cls
@@ -88,7 +92,21 @@ rm README.md
 rm "Update Mods.cmd"
 exit
 
-:4UPDATE
+:4BETA
+cls
+cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
+rmdir /s /q mods
+rmdir /s /q assets\mod_overrides
+rm IPHLPAPI.dll
+rmdir /s /q Maps
+git clone --branch beta https://github.com/46620/Payday-Modpack
+cd Payday-Modpack
+robocopy . .. /e >nul
+cd ..
+rmdir /s /q Payday-Modpack
+exit
+
+:5UPDATE
 cls
 echo Making folder for the script to download the new shit to
 timeout 1 >nul
