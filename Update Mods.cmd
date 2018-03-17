@@ -1,6 +1,6 @@
 @echo off
 color 0a
-title Payday mod updater V3.6 BETA
+title Payday mod updater V3.7
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
@@ -9,7 +9,7 @@ pause >nul
 C:
 
 :cleanup
-
+cls
 cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
 rmdir /s /q mods
 rmdir /s /q assets\mod_overrides
@@ -18,6 +18,7 @@ rmdir /s /q Maps
 rm "Update Mods.cmd"
 
 :ask
+cls
 echo What do you want to do.
 echo 1. Update mods from outside of the Payday 2 Dir.
 echo 2. Update mods from outside of the Payday 2 Dir (Not default install).
@@ -118,3 +119,4 @@ cd Payday-Modpack
 move "Update Mods.cmd" ..
 cd ..
 move "Update Mods.cmd" ..
+exit
