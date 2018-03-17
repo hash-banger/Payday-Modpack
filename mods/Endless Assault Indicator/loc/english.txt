@@ -1,5 +1,0 @@
-{
-    "eai_mod_title" : "Endless Assault Indicator"
-    "eai_mod_desc" : "Change mod options"
-    "hud_assault_endless" : "ENDLESS POLICE ASSAULT IN PROGRESS"
-}

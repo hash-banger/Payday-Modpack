@@ -1,8 +1,0 @@
-{
-	"name" : "Freecam fix",
-	"author" : "Luffy",
-	"blt_version" : 2,
-    "hooks" : [
-        { "hook_id" : "lib/setups/gamesetup", "script_path" : "CameraBase.lua"}
-    ]
-}

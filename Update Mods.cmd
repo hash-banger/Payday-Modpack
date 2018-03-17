@@ -20,10 +20,10 @@ IF %a%==3 goto 3UPDATE
 :1remove
 cls
 cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
-rm -rf mods
-rm -rf assets\mod_overrides
+rmdir /s /q mods
+rmdir /s /q assets\mod_overrides
 rm IPHLPAPI.dll
-rm -rf Maps
+rmdir /s /q Maps
 goto 1Update
 
 :1Update
@@ -35,7 +35,7 @@ git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
 git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
-rm -rf .git
+rmdir /s /q .git
 rm README.md
 rm "Update Mods.cmd"
 exit
@@ -48,6 +48,14 @@ set /p dri=
 cd "%dri%:\Steam\steamapps\common\PAYDAY 2"
 goto 2UPDATE
 
+:2remove
+cls
+rmdir /s /q mods
+rmdir /s /q assets\mod_overrides
+rm IPHLPAPI.dll
+rmdir /s /q Maps
+goto 2UPDATE
+
 :2UPDATE
 cls
 git gc
@@ -56,20 +64,24 @@ git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
 git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
-rm -rf .git
+rmdir /s /q .git
 rm README.md
 rm "Update Mods.cmd"
 exit
 
 :3UPDATE
 cls
+rmdir /s /q mods
+rmdir /s /q assets\mod_overrides
+rm IPHLPAPI.dll
+rmdir /s /q Maps
 git gc
 git init . >nul
 git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
 git fetch --all
 git reset --hard origin/master
 git fetch origin master >nul 2>&1
-rm -rf .git
+rmdir /s /q .git
 rm README.md
 rm "Update Mods.cmd"
 exit
