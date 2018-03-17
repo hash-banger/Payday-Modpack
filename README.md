@@ -10,27 +10,7 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
    - Beardlib
    - Biglobby
-   - Create Empty Lobbies
-   - Endless Assault Indicator
-   - FreeFlightCam
-   - HoloInfo
    - HopLib
-   - Interact Time Hint
-   - Jump and Duck in Casing Mode
-   - Kick a friend
-   - KillFeed
-   - Lobby Player Info
-   - Mod List Light
-   - Money in HUD
-   - Offical Gage Shop
-   - Page Contour
-   - PD2-Lobby-Toolsv1.2
-   - Press2Hold
-   - Remove AI Name Panel
-   - removeexclamation
-   - Remove Teammates Outline
-   - Secret Pager
-   - Straight to main menu
 
 ### mod_overrides
 
