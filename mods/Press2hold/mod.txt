@@ -1,0 +1,14 @@
+{
+    "name" : "Press2hold MUI version",
+    "description" : "Adds the ability to automatically hold on to the interaction button just like HoxHud's version.",
+    "author" : "Seven"
+    "contact" : "",
+    "version" : "1.01",
+    "priority" : 10,
+    "blt_version" : 2,	
+	"hooks" : [   
+        {"hook_id" : "lib/units/beings/player/states/playercivilian", "script_path" :"press2hold.lua"},
+        {"hook_id" : "lib/units/beings/player/states/playermaskoff", "script_path" :"press2hold.lua"},
+        {"hook_id" : "lib/units/beings/player/states/playerstandard", "script_path" : "press2hold.lua"}
+	]
+}

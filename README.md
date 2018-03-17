@@ -8,9 +8,20 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
 ### BLT
 
-   - Beardlib
-   - Biglobby
-   - HopLib
+- Beardlib
+- Biglobby
+- FreeFlightCam
+- HoloInfo
+- HopLib
+- Lobby Player Info
+- Mod List Light
+- Offical Gage Shop
+- Money in HUD
+- PD2-Lobby-Toolsv1.2
+- Press2Hold
+- Remove AI Name Panel
+- Remove Teammates Outline
+- Straight to main menu
 
 ### mod_overrides
 
