@@ -1,21 +1,12 @@
 @echo off
 color 0a
-title Payday mod updater V3.7.2
+title Payday mod updater V3.7.3
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
 echo This script will remove your mods before you run the updater, backup the saves folder before running the rest of the script
 pause >nul
 C:
-
-:cleanup
-cls
-cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
-rmdir /s /q mods
-rmdir /s /q assets\mod_overrides
-rm IPHLPAPI.dll
-rmdir /s /q Maps
-rm "Update Mods.cmd"
 
 :ask
 cls
@@ -27,7 +18,7 @@ echo 4. Update mods to BETA BRANCH (C: drive only)
 echo 5. Update this script
 
 set /p a=
-IF %a%==1 goto 1Update
+IF %a%==1 goto 1remove
 IF %a%==2 goto 2start
 IF %a%==3 goto 3UPDATE
 IF %a%==4 goto 4BETA
@@ -53,7 +44,7 @@ echo What drive is this game on
 set /p dri=
 %dri%:
 cd "%dri%:\Steam\steamapps\common\PAYDAY 2"
-goto 2UPDATE
+goto 2remove
 
 :2remove
 cls
