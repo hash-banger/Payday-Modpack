@@ -1,6 +1,6 @@
 @echo off
 color 0a
-title Payday mod updater V3.7
+title Payday mod updater V3.7.1
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
@@ -110,6 +110,11 @@ exit
 :5UPDATE
 cls
 echo Making folder for the script to download the new shit to
+tinmeout 1 >nul
+echo ALL OF THIS WILL HAPPEN ON DESKTOP
+timeout 1 >nul
+cd C:\Users\%USERNAME%\Desktop
+rmdir /s /q "Script Update"
 timeout 1 >nul
 mkdir "Script Update"
 echo Downloading the modpack to get the CMD script
