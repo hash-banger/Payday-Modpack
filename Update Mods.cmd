@@ -1,6 +1,6 @@
 @echo off
 color 0a
-title Payday mod updater V3.1
+title Payday mod updater V3.2
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
@@ -38,6 +38,7 @@ git fetch origin master >nul 2>&1
 rmdir /s /q .git
 rm README.md
 rm "Update Mods.cmd"
+exit
 
 :2start
 cls
