@@ -27,6 +27,12 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
    - Cloakers, Oh yeah Mr Krabs
    - Uh dude that would be **S A L T**
+   - HD Anno Pickup - PDTH style
+
+### Maps
+
+   - Manager Mayhem
+   - FunBank
 
 ### Maps
 

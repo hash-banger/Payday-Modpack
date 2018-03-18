@@ -1,0 +1,6 @@
+<table>
+	<objective description="obj_funbank_placedrill_desc" id="obj_funbank_placedrill" prio="1" text="obj_funbank_placedrill_text" xp_weight="1"/>
+	<objective description="obj_funbank_h_c_a_d_l_desc" id="obj_funbank_h_c_a_d_l" prio="1" text="obj_funbank_h_c_a_d_l_text" xp_weight="1"/>
+	<objective description="obj_funbank_r_c_desc" id="obj_funbank_r_c" prio="1" text="obj_funbank_r_c_text" xp_weight="1"/>
+	<objective description="obj_funbank_d_s_desc" id="obj_funbank_d_s" prio="1" text="obj_funbank_d_s_text" xp_weight="1"/>
+</table>

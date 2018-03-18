@@ -1,0 +1,134 @@
+<table name="FunBank">
+	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="miamicenter" name_id="heist_contact_miamicenter" package="packages/contact_the_dentist"/>
+	<Localization default="english.txt" directory="loc"/>
+	<narrative briefing_event="" contact="miamicenter" id="FunBank_menu" jc="50" load_screen="guis/dlcs/pic/textures/loading/job_firestarter_01">
+		<chain>
+			<table level_id="funbank" mission="default" type="d" type_id="heist_type_knockover">
+				<mission_filter>
+					<value_node value="3"/>
+				</mission_filter>
+			</table>
+		</chain>
+		<contract_cost>
+			<value_node value="39000"/>
+			<value_node value="78000"/>
+			<value_node value="195000"/>
+			<value_node value="390000"/>
+			<value_node value="500000"/>
+			<value_node value="500000"/>
+			<value_node value="500000"/>
+		</contract_cost>
+		<crimenet_videos>
+			<value_node value="cn_fires1"/>
+			<value_node value="cn_fires2"/>
+			<value_node value="cn_fires3"/>
+		</crimenet_videos>
+		<experience_mul>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="70000"/>
+			<value_node value="95000"/>
+			<value_node value="125000"/>
+			<value_node value="200000"/>
+			<value_node value="250000"/>
+			<value_node value="250000"/>
+			<value_node value="250000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" briefing_dialog="" cube="cube_apply_heist_bank" ghost_bonus="0.08" id="funbank" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_branchbank" max_bags="54" music="heist">
+		<add file="levels/funbank/add.xml"/>
+		<assets/>
+		<hooks>
+			<hook file="hooks/charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="hooks/achievmentmanager.lua" source_file="lib/managers/achievmentmanager"/>
+			<hook file="hooks/copinventory.lua" source_file="lib/units/enemies/cop/copinventory"/>
+			<hook file="hooks/preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="hooks/playersound.lua" source_file="lib/units/beings/player/playersound"/>
+		</hooks>
+		<include directory="levels/funbank">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="pc_only/pc_only.continent" type="binary"/>
+			<file file="pc_only/pc_only.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<mission_data>
+			<table mission="standalone"/>
+		</mission_data>
+		<packages>
+			<value_node value="packages/narr_firestarter3"/>
+			<value_node value="packages/sm_wish"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world_sounds"/>
+			<value_node value="packages/job_firestarter"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/editor_only/editor_only"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world"/>
+			<value_node value="levels/narratives/dentist/mus/new_props/new_props"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/night_only/night_only"/>
+			<value_node value="levels/narratives/continental/spa/light_cones/light_cones"/>
+			<value_node value="levels/narratives/vlad/mallcrasher/pc_only/pc_only"/>
+			<value_node value="levels/instances/unique/haunted_trap001/world/world"/>
+			<value_node value="levels/instances/unique/mus_first_barrier/world/world"/>
+			<value_node value="levels/instances/unique/are_loot_shoot/world/world"/>
+			<value_node value="levels/instances/unique/glace/glace_prison_bus/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_turret/world/world"/>
+			<value_node value="levels/instances/unique/moon/crate_shoes/world/world"/>
+			<value_node value="levels/instances/unique/san_box_tree001/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_fac/world/world"/>
+			<value_node value="packages/narr_dinner"/>
+			<value_node value="levels/instances/unique/chill/living_room/world/world"/>
+			<value_node value="packages/job_peta"/>
+			<value_node value="levels/instances/unique/cag_computer/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_panic_room/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world/world"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world/world"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world/world_init"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world_init"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world_sounds"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AssetUpdates id="21842" provider="modworkshop" use_local_dir="true" version="1.3"/>
+</table>
