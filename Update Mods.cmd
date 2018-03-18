@@ -1,6 +1,6 @@
 @echo off
 color 0a
-title Payday mod updater V3.7.4
+title Payday mod updater V4
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
@@ -16,6 +16,7 @@ echo 2. Update mods from outside of the Payday 2 Dir (Not default install).
 echo 3. Update mods from inside of the Payday 2 Dir.
 echo 4. Update mods to BETA BRANCH (C: drive only)
 echo 5. Update this script
+echo 6. Update this script (Beta version)
 
 set /p a=
 IF %a%==1 goto 1remove
@@ -23,19 +24,21 @@ IF %a%==2 goto 2start
 IF %a%==3 goto 3UPDATE
 IF %a%==4 goto 4BETA
 IF %a%==5 goto 5UPDATE
+IF %a%==6 goto 6UPDATE
 
 :1Update
 cls
 echo This will now connect to the github repo and download the most recent version of the modpack
-git gc
-git init . >nul
-git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
-git fetch --all
-git reset --hard origin/master
-git fetch origin master >nul 2>&1
-rmdir /s /q .git
-del README.md
-del "Update Mods.cmd"
+cd "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2"
+rmdir /s /q mods
+rmdir /s /q assets\mod_overrides
+del IPHLPAPI.dll
+rmdir /s /q Maps
+git clone --branch master https://github.com/46620/Payday-Modpack
+cd Payday-Modpack
+robocopy . .. /e >nul
+cd ..
+rmdir /s /q Payday-Modpack
 exit
 
 :2start
@@ -56,15 +59,15 @@ goto 2UPDATE
 
 :2UPDATE
 cls
-git gc
-git init . >nul
-git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
-git fetch --all
-git reset --hard origin/master
-git fetch origin master >nul 2>&1
-rmdir /s /q .git
-del README.md
-del "Update Mods.cmd"
+rmdir /s /q mods
+rmdir /s /q assets\mod_overrides
+del IPHLPAPI.dll
+rmdir /s /q Maps
+git clone --branch master https://github.com/46620/Payday-Modpack
+cd Payday-Modpack
+robocopy . .. /e >nul
+cd ..
+rmdir /s /q Payday-Modpack
 exit
 
 :3UPDATE
@@ -73,15 +76,11 @@ rmdir /s /q mods
 rmdir /s /q assets\mod_overrides
 del IPHLPAPI.dll
 rmdir /s /q Maps
-git gc
-git init . >nul
-git remote add origin https://github.com/46620/Payday-Modpack.git >nul 2>&1
-git fetch --all
-git reset --hard origin/master
-git fetch origin master >nul 2>&1
-rmdir /s /q .git
-del README.md
-del "Update Mods.cmd"
+git clone --branch master https://github.com/46620/Payday-Modpack
+cd Payday-Modpack
+robocopy . .. /e >nul
+cd ..
+rmdir /s /q Payday-Modpack
 exit
 
 :4BETA
@@ -115,4 +114,18 @@ cd Payday-Modpack
 move "Update Mods.cmd" ..
 cd ..
 move "Update Mods.cmd" ..
+rmdir /s /q Payday-Modpack
+exit
+
+:6UPDATE
+cls
+echo This will change your script to the hourly build of the CMD script
+timeout 1 >nul
+cd C:\Users\%USERNAME%\Desktop
+git clone --branch beta https://github.com/46620/Payday-Modpack
+cd Payday-Modpack
+move "Update Mods.cmd" ..
+cd ..
+move "Update Mods.cmd" ..
+rmdir /s /q Payday-Modpack
 exit
