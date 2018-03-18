@@ -28,6 +28,11 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - Cloakers, Oh yeah Mr Krabs
    - Uh dude that would be **S A L T**
 
+### Maps
+
+   - Manager Mayhem
+
+
 ## Discord the modpack is used for
 
 [The Schmuck Room](https://discord.gg/YtwfQrD)
