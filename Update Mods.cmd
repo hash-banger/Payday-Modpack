@@ -1,8 +1,7 @@
 @echo off
 color 0a
-title Payday mod updater V4.3
+title Payday mod updater V4.3.1
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
-timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
 echo This script will remove your mods before you run the updater, backup the saves folder before running the rest of the script
 pause >nul
@@ -117,11 +116,6 @@ exit
 
 :5UPDATE
 cls
-echo Making folder for the script to download the new shit to
-timeout 1 >nul
-echo ALL OF THIS WILL HAPPEN ON DESKTOP
-timeout 1 >nul
-cd C:\Users\%USERNAME%\Desktop
 rmdir /s /q "Script Update"
 timeout 1 >nul
 mkdir "Script Update"
@@ -148,6 +142,4 @@ rmdir /s /q Payday-Modpack
 exit
 
 :Discord
-echo This will invite you to the discord server that this modpack was used for.
-timeout 5 >nul
 start https://discord.gg/YtwfQrD
