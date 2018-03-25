@@ -10,16 +10,19 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
 - Beardlib
 - Biglobby
+- Civ Marking in stealth
 - FreeFlightCam
 - HoloInfo
 - HopLib
 - Lobby Player Info
 - Mod List Light
+- Money in HUD
 - Offical Gage Shop
 - Money in HUD
 - PD2-Lobby-Toolsv1.2
 - Press2Hold
 - Remove AI Name Panel
+- Remove Teammates Name
 - Remove Teammates Outline
 - Straight to main menu
 
@@ -33,7 +36,6 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
    - Manager Mayhem
    - FunBank
-
 
 ## Discord the modpack is used for
 
