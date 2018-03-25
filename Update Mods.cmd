@@ -1,7 +1,6 @@
 @echo off
 color 0a
-
-title Payday mod updater V4.2
+title Payday mod updater V4.3
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 timeout 1 >nul
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
@@ -21,7 +20,7 @@ echo 6. Update this script (Beta version)
 echo 9. Discord
 
 set /p a=
-IF %a%==1 goto 1remove
+IF %a%==1 goto 1Update
 IF %a%==2 goto 2start
 IF %a%==3 goto 3UPDATE
 IF %a%==4 goto 4BETA
