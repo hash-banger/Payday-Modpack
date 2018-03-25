@@ -34,10 +34,6 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - Manager Mayhem
    - FunBank
 
-### Maps
-
-   - Manager Mayhem
-
 
 ## Discord the modpack is used for
 
