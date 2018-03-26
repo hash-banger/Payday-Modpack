@@ -1,6 +1,6 @@
 @echo off
 color 0a
-title Payday mod updater V4.3.1
+title Payday mod updater V4.3.2
 echo So this file was made for me and my friends so they can update the modpack I made for them more quickly.
 echo THIS WILL REMOVE CUSTOM MOD CONFIGS, BACK THOSE UP BEFORE RUNNING THIS
 echo This script will remove your mods before you run the updater, backup the saves folder before running the rest of the script
@@ -40,6 +40,9 @@ cd Payday-Modpack
 robocopy . .. /e >nul
 cd ..
 rmdir /s /q Payday-Modpack
+del "Update Mods.cmd"
+del README.md
+rmdir /s /q .git
 exit
 
 :2start
@@ -69,6 +72,9 @@ cd Payday-Modpack
 robocopy . .. /e >nul
 cd ..
 rmdir /s /q Payday-Modpack
+del "Update Mods.cmd"
+del README.md
+rmdir /s /q .git
 exit
 
 :3UPDATE
@@ -82,6 +88,9 @@ cd Payday-Modpack
 robocopy . .. /e >nul
 cd ..
 rmdir /s /q Payday-Modpack
+del "Update Mods.cmd"
+del README.md
+rmdir /s /q .git
 exit
 
 :4BETA
@@ -112,27 +121,23 @@ cd Payday-Modpack
 robocopy . .. /e >nul
 cd ..
 rmdir /s /q Payday-Modpack
+del "Update Mods.cmd"
+del README.md
+rmdir /s /q .git
 exit
 
 :5UPDATE
 cls
-rmdir /s /q "Script Update"
-timeout 1 >nul
-mkdir "Script Update"
-echo Downloading the modpack to get the CMD script
-cd "Script Update"
-git clone https://github.com/46620/Payday-Modpack.git
+cd C:\Users\%USERNAME%\Desktop
+git clone --branch master https://github.com/46620/Payday-Modpack
 cd Payday-Modpack
 move "Update Mods.cmd" ..
 cd ..
-move "Update Mods.cmd" ..
 rmdir /s /q Payday-Modpack
 exit
 
 :6UPDATE
 cls
-echo This will change your script to the hourly build of the CMD script
-timeout 1 >nul
 cd C:\Users\%USERNAME%\Desktop
 git clone --branch beta https://github.com/46620/Payday-Modpack
 cd Payday-Modpack
