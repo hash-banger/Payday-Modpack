@@ -37,6 +37,8 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
    - Manager Mayhem
    - FunBank
 
-## Discord the modpack is used for
+## Discord(s) the modpack is used for
 
 [The Schmuck Room](https://discord.gg/YtwfQrD)
+
+[46620's Shack]() (INVITE SOON!)
