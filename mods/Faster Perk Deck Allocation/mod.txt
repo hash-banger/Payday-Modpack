@@ -1,0 +1,21 @@
+{
+	"name"	:	"Faster Perk Deck Allocation",
+	"description"	:	"Makes leveling perk decks much faster",
+	"author"	:	"Naviaux",
+	"contact"	:	"/u/Naviaux-",
+	"version"	:	"1",
+	"blt_version" : 2,
+	"priority"	:	"0",
+	"updates"	:	[
+		{
+			"revision"	:	1,
+			"identifier"	:	"perk-allocation"
+		}
+	],
+	"hooks"	:	[
+		{
+			"hook_id"	:	"lib/managers/menu/skilltreegui",
+			"script_path"	: "perkdeck.lua"
+		}
+	]
+}

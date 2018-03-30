@@ -1,0 +1,7 @@
+{
+	"DedicatedServer_menu_title" : "Dedicated Server",
+	"DedicatedServer_menu_desc" : " ",
+	"DedicatedServer_menu_Reset_title" : "Reset",
+	"DedicatedServer_menu_createautolobby_title" : "Create Dedicated Server",
+	"DedicatedServer_menu_createautolobby_desc" : " "
+}
