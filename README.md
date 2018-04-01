@@ -11,6 +11,7 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 - Beardlib
 - Biglobby
 - Civ Marking in stealth
+- Faster Perk Deck Allocation
 - FreeFlightCam
 - HoloInfo
 - HopLib
@@ -18,7 +19,6 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 - Mod List Light
 - Money in HUD
 - Offical Gage Shop
-- Money in HUD
 - PD2-Lobby-Toolsv1.2
 - Press2Hold
 - Remove AI Name Panel
