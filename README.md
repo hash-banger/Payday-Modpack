@@ -11,6 +11,7 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 - Advanced Assault Standalone
 - Beardlib
 - Biglobby
+- Carry Stacker Reloaded
 - Civ Marking in stealth
 - Faster Perk Deck Allocation
 - FreeFlightCam
