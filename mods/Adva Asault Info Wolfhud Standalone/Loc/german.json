@@ -1,0 +1,11 @@
+{
+	"wolfhud_advassault_phase_title" : "Ansturms Phase:",
+	"wolfhud_advassault_spawns_title" : "Verbleibende Spawns:",
+	"wolfhud_advassault_time_title" : "Verbleibende Zeit:",
+	"wolfhud_advassault_phase_anticipation" : "Erwartung",
+	"wolfhud_advassault_phase_build" : "Aufbau",
+	"wolfhud_advassault_phase_sustain" : "Angriff",
+	"wolfhud_advassault_phase_fade" : "Abklang",
+	"wolfhud_advassault_time_overdue" : "ÜBERFÄLLIG",
+	"wolfhud_locked_assault" : "Endloser Polizei Ansturm!!!   Verschwinde so schnell wie möglich!!!"
+}

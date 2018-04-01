@@ -1,0 +1,11 @@
+{
+	"wolfhud_advassault_phase_title" : "Fase de Asalto: ",
+	"wolfhud_advassault_spawns_title" : "Spawns Restantes: ",
+	"wolfhud_advassault_time_title" : "Tiempo Restante: ",
+	"wolfhud_advassault_phase_anticipation" : "Anticipation",
+	"wolfhud_advassault_phase_build" : "Construir",
+	"wolfhud_advassault_phase_sustain" : "Mantener",
+	"wolfhud_advassault_phase_fade" : "Disolver",
+	"wolfhud_advassault_time_overdue" : "ATRASADO",
+	"wolfhud_locked_assault" : "¡¡¡Asalto Policial sin Limite!!!  ¡¡¡Sal lo mas rapido posible!!!"
+}

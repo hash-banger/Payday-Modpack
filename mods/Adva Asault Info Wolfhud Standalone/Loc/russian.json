@@ -1,0 +1,11 @@
+{
+	"wolfhud_advassault_phase_title" : "Стадия Штурма: ",
+	"wolfhud_advassault_spawns_title" : "Осталось Спаунов: ",
+	"wolfhud_advassault_time_title" : "Осталось Времени: ",
+	"wolfhud_advassault_phase_anticipation" : "Подготовка",
+	"wolfhud_advassault_phase_build" : "Нарастание",
+	"wolfhud_advassault_phase_sustain" : "Подкрепление",
+	"wolfhud_advassault_phase_fade" : "Затихание",
+	"wolfhud_advassault_time_overdue" : "ЗАДЕРЖКА",
+	"wolfhud_locked_assault" : "Бесконечный штурм!!!  Убирайтесь как можно скорее!!!"
+}

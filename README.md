@@ -8,6 +8,7 @@ I DO NOT OWN ANY OF THESE MODS! I JUST PUT THEM HERE!
 
 ### BLT
 
+- Advanced Assault Standalone
 - Beardlib
 - Biglobby
 - Civ Marking in stealth
