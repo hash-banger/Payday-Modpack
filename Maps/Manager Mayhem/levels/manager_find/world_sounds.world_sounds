@@ -13,7 +13,7 @@
 			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 		</entry>
 		<entry index="2" type="table">
-			<entry key="emitter_event" type="string" value="emitter_wind"/>
+			<entry key="emitter_event" type="string" value=""/>
 			<entry key="name" type="string" value="sound_emitter_002"/>
 			<entry key="position" type="vector3" value="-2086 6241 5345"/>
 			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>

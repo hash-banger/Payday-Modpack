@@ -1,8 +1,12 @@
 SoundsModule = SoundsModule or class(ModuleBase)
 SoundsModule.type_id = "Sounds"
-function SoundsModule:RegisterHook()
+function SoundsModule:init(...)
+    if not SoundsModule.super.init(self, ...) then
+        return false
+	end
 	BeardLib.Utils:SetupXAudio()
-	self:ReadSounds(self._config)
+    self:ReadSounds(self._config)
+    return true
 end
 
 function SoundsModule:ReadSounds(data, prev_dir)
@@ -32,6 +36,8 @@ function SoundsModule:ReadSounds(data, prev_dir)
 					prefix = prefix,
 					unload = unload,
 				}, v))
+			elseif (v._meta == "redirect" or v._meta == "Redirect") then
+				CustomSoundManager:AddRedirect(v.id, v.to, v.prefix or prefix)
 			elseif (v._meta == "sounds" or v._meta == "Sounds") then
 				self:ReadSounds(v, dir)
 			end

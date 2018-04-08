@@ -82,6 +82,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="200084"/>
 						</entry>
+						<entry index="18" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200099"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3945 3499 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
@@ -195,17 +199,21 @@
 				<entry key="id" type="number" value="100007"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="AI_event" type="string" value="police_called"/>
+					<entry key="AI_event" type="string" value="none"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="blame" type="string" value="none"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200097"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="4075 -3625 300"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="wave_mode" type="string" value="besiege"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="wave_mode" type="string" value="hunt"/>
 				</entry>
 			</entry>
 			<entry index="8" type="table">
@@ -237,6 +245,10 @@
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100100"/>
 						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200100"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="0 0 0"/>
 					<entry key="radius" type="number" value="250"/>
@@ -262,7 +274,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="40"/>
+							<entry key="delay" type="number" value="5"/>
 							<entry key="id" type="number" value="100013"/>
 						</entry>
 						<entry index="2" type="table">
@@ -313,7 +325,7 @@
 				<entry key="id" type="number" value="100010"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="0"/>
+					<entry key="amount" type="number" value="2"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100011"/>
@@ -324,7 +336,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="20"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="8853 2153 0"/>
@@ -339,7 +351,7 @@
 						<entry index="8" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="spawn_type" type="string" value="random"/>
+					<entry key="spawn_type" type="string" value="ordered"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -541,7 +553,7 @@
 				<entry key="id" type="number" value="100019"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="0"/>
+					<entry key="amount" type="number" value="3"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100017"/>
@@ -554,7 +566,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="0"/>
+					<entry key="interval" type="number" value="20"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="9979 4122 0"/>
@@ -569,7 +581,7 @@
 						<entry index="8" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="spawn_type" type="string" value="random"/>
+					<entry key="spawn_type" type="string" value="ordered"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -911,7 +923,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="24"/>
+							<entry key="delay" type="number" value="54"/>
 							<entry key="id" type="number" value="100024"/>
 						</entry>
 					</entry>
@@ -959,7 +971,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="31"/>
+							<entry key="delay" type="number" value="61"/>
 							<entry key="id" type="number" value="100028"/>
 						</entry>
 					</entry>
@@ -1013,24 +1025,32 @@
 							<entry key="id" type="number" value="100036"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="200010"/>
-						</entry>
-						<entry index="3" type="table">
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100087"/>
 						</entry>
-						<entry index="4" type="table">
+						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100098"/>
 						</entry>
-						<entry index="5" type="table">
+						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="200005"/>
 						</entry>
-						<entry index="6" type="table">
+						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="200008"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200010"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="200098"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200113"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="7538 2516 0"/>
@@ -1109,6 +1129,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="200127"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="313 -2583 0"/>
 					<entry key="rotation" type="quaternion" value="-0 -0 0.707107 -0.707107"/>
@@ -1137,19 +1161,23 @@
 						</entry>
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100088"/>
+							<entry key="id" type="number" value="100042"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100099"/>
+							<entry key="id" type="number" value="100088"/>
 						</entry>
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100042"/>
+							<entry key="id" type="number" value="100099"/>
 						</entry>
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="200086"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200114"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1800 1600 4100"/>
@@ -1484,7 +1512,7 @@
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="2"/>
+							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100051"/>
 						</entry>
 						<entry index="2" type="table">
@@ -1540,6 +1568,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200121"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-625 -3200 275"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -1824,11 +1856,8 @@
 					<entry key="displacement" type="vector3" value="0 12800 -1000"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="is_displacement" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0.5"/>
-							<entry key="id" type="number" value="100068"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-75 6458 4800"/>
 					<entry key="rotation" type="quaternion" value="0 -0 0 -1"/>
@@ -1837,6 +1866,7 @@
 					<entry key="unit_ids" type="table">
 						<entry index="1" type="number" value="500780"/>
 					</entry>
+					<entry key="unit_position_as_start_position" type="boolean" value="true"/>
 				</entry>
 			</entry>
 			<entry index="63" type="table">
@@ -1929,6 +1959,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100064"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="64.5"/>
+							<entry key="id" type="number" value="100068"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="4028 -3457 300"/>
 					<entry key="rotation" type="quaternion" value="0 0 2.68221e-007 -1"/>
@@ -1968,6 +2002,10 @@
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100102"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200119"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-75 -1350 25.0001"/>
@@ -2202,7 +2240,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="2"/>
+							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100051"/>
 						</entry>
 						<entry index="2" type="table">
@@ -2654,18 +2692,12 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="31"/>
-							<entry key="id" type="number" value="200003"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="22"/>
-							<entry key="id" type="number" value="200003"/>
-						</entry>
-						<entry index="3" type="table">
+						<entry index="1" type="table" _id="1">
 							<entry key="delay" type="number" value="40"/>
 							<entry key="id" type="number" value="200003"/>
 						</entry>
+						<entry index="2" type="table" _ref="1"/>
+						<entry index="3" type="table" _ref="1"/>
 					</entry>
 					<entry key="position" type="vector3" value="-813.303 -1785.52 525.62"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
@@ -2825,7 +2857,7 @@
 							<entry key="id" type="number" value="1"/>
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="500766"/>
-							<entry key="notify_unit_sequence" type="string" value="set_hack_time_state_8"/>
+							<entry key="notify_unit_sequence" type="string" value="set_hack_time_state_6"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -2882,8 +2914,8 @@
 							<entry key="id" type="number" value="200011"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="1"/>
-							<entry key="id" type="number" value="100007"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200112"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-548.34 -1265.13 555.172"/>
@@ -3166,6 +3198,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="200116"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-632.976 -743.392 697.544"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
@@ -3570,40 +3606,45 @@
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
+							<entry key="delay" type="number" value="5"/>
+							<entry key="id" type="number" value="100007"/>
+						</entry>
+						<entry index="2" type="table" _id="2">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100084"/>
 						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100101"/>
-						</entry>
-						<entry index="3" type="table">
-							<entry key="delay" type="number" value="0.1"/>
-							<entry key="id" type="number" value="200018"/>
-						</entry>
+						<entry index="3" type="table" _ref="2"/>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="2"/>
-							<entry key="id" type="number" value="200019"/>
-						</entry>
-						<entry index="5" type="table">
-							<entry key="delay" type="number" value="2"/>
-							<entry key="id" type="number" value="100007"/>
-						</entry>
-						<entry index="6" type="table">
 							<entry key="delay" type="number" value="1.1"/>
 							<entry key="id" type="number" value="100085"/>
 						</entry>
-						<entry index="7" type="table">
+						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100084"/>
+							<entry key="id" type="number" value="100101"/>
 						</entry>
-						<entry index="8" type="table">
+						<entry index="6" type="table">
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="200001"/>
 						</entry>
-						<entry index="9" type="table">
+						<entry index="7" type="table">
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="200007"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="200018"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="200019"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="200096"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="200106"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-602.52 -1689.03 74.0992"/>
@@ -3634,7 +3675,7 @@
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="followup_elements" type="table">
 					</entry>
@@ -3677,7 +3718,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -3698,7 +3739,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="200016"/>
 					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="event" type="string" value="death"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -5534,17 +5575,18 @@
 					<entry key="event" type="string" value="death"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
+						<entry index="1" type="table" _id="3">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="200080"/>
 						</entry>
-						<entry index="2" type="table">
+						<entry index="2" type="table" _ref="3"/>
+						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="200079"/>
 						</entry>
-						<entry index="3" type="table">
+						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="200080"/>
+							<entry key="id" type="number" value="200126"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="86.4447 -964.418 813.832"/>
@@ -5843,13 +5885,13 @@
 					<entry key="id" type="string" value="ammo_bag"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
+							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="200089"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-646.543 202.503 389.319"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 			<entry index="202" type="table">
@@ -5864,7 +5906,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-728.657 181.043 18.9422"/>
+					<entry key="position" type="vector3" value="-728.657 181.043 0.9422"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -5881,13 +5923,13 @@
 					<entry key="id" type="string" value="health_bag"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
+							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="200095"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-988.734 -2046.09 165.787"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 			<entry index="204" type="table">
@@ -5897,13 +5939,848 @@
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="deployable_id" type="string" value="none"/>
+					<entry key="deployable_id" type="string" value="doctor_bag"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="-957.83 -2029.7 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
+					<entry key="rotation" type="quaternion" value="0 0 -1.06581e-014 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="205" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disable_invis_wall"/>
+				<entry key="id" type="number" value="200096"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-664.815 -1882.25 603.726"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100037"/>
+						<entry index="2" type="number" value="100038"/>
+						<entry index="3" type="number" value="100039"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="206" type="table">
+				<entry key="class" type="string" value="ElementPointOfNoReturn"/>
+				<entry key="editor_name" type="string" value="point_of_no_return"/>
+				<entry key="id" type="number" value="200097"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-311.017 -666.727 982.803"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="time_easy" type="number" value="300"/>
+					<entry key="time_easy_wish" type="number" value="300"/>
+					<entry key="time_hard" type="number" value="400"/>
+					<entry key="time_normal" type="number" value="400"/>
+					<entry key="time_overkill" type="number" value="340"/>
+					<entry key="time_overkill_145" type="number" value="340"/>
+					<entry key="time_overkill_290" type="number" value="300"/>
+					<entry key="time_sm_wish" type="number" value="280"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="207" type="table">
+				<entry key="class" type="string" value="ElementSetOutline"/>
+				<entry key="editor_name" type="string" value="set_outline_manager"/>
+				<entry key="id" type="number" value="200098"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100039"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="227.506 -2603.84 603.719"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="set_outline" type="boolean" value="true"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="208" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_briefing"/>
+				<entry key="id" type="number" value="200099"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 575.05 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/briefing"/>
+					<entry key="subtitle_duration" type="number" value="25"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_briefing"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="209" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_spawn"/>
+				<entry key="id" type="number" value="200100"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 475.05 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_spawn"/>
+					<entry key="subtitle_duration" type="number" value="9"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_spawn"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="210" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_alarm1"/>
+				<entry key="id" type="number" value="200101"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="3"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200107"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 375.05 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_alarm1"/>
+					<entry key="subtitle_duration" type="number" value="3"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_alarm1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="211" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_alarm2"/>
+				<entry key="id" type="number" value="200102"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="2"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200107"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 375.05 1055.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_alarm2"/>
+					<entry key="subtitle_duration" type="number" value="2"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_alarm2"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="212" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_alarm3"/>
+				<entry key="id" type="number" value="200103"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="3"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200107"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 375.05 1005.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_alarm3"/>
+					<entry key="subtitle_duration" type="number" value="3"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_alarm3"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="213" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_alarm4"/>
+				<entry key="id" type="number" value="200104"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="3"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200107"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 375.05 955.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_alarm4"/>
+					<entry key="subtitle_duration" type="number" value="3"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_alarm4"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="214" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_alarm5"/>
+				<entry key="id" type="number" value="200105"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="2"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200107"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 375.05 905.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_alarm5"/>
+					<entry key="subtitle_duration" type="number" value="2"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_alarm5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="215" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="vo_random_alarm"/>
+				<entry key="id" type="number" value="200106"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200101"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200102"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200103"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200104"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200105"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-2724.97 377.43 1162.41"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="216" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_lock1"/>
+				<entry key="id" type="number" value="200107"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="8"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200108"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 275.05 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_lock1"/>
+					<entry key="subtitle_duration" type="number" value="8"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_lock1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="217" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_lock2"/>
+				<entry key="id" type="number" value="200108"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2711.4 275.05 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_lock2"/>
+					<entry key="subtitle_duration" type="number" value="8"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_lock2"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="218" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_hackjam1"/>
+				<entry key="id" type="number" value="200109"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 175.05 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_hackjam1"/>
+					<entry key="subtitle_duration" type="number" value="3"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_hackjam1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="219" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_hackjam2"/>
+				<entry key="id" type="number" value="200110"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 175.05 1055.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_hackjam2"/>
+					<entry key="subtitle_duration" type="number" value="2"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_hackjam2"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="220" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_hackjam3"/>
+				<entry key="id" type="number" value="200111"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 175.05 1005.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_hackjam3"/>
+					<entry key="subtitle_duration" type="number" value="4"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_hackjam3"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="221" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="vo_random_hackjam"/>
+				<entry key="id" type="number" value="200112"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200109"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200110"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200111"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-2724.97 177.43 1162.41"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="222" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_hackdone"/>
+				<entry key="id" type="number" value="200113"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 75.05 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_hackdone"/>
+					<entry key="subtitle_duration" type="number" value="4"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_hackdone"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="223" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_extraction"/>
+				<entry key="id" type="number" value="200114"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="4"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200115"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -24.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_extraction"/>
+					<entry key="subtitle_duration" type="number" value="4"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_extraction"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="224" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_extraction2"/>
+				<entry key="id" type="number" value="200115"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2711.4 -24.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_extraction2"/>
+					<entry key="subtitle_duration" type="number" value="4"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_extraction2"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="225" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_powerdown"/>
+				<entry key="id" type="number" value="200116"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="3"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200117"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -124.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_powerdown"/>
+					<entry key="subtitle_duration" type="number" value="3"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_powerdown"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="226" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_helicoming"/>
+				<entry key="id" type="number" value="200117"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="7"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200118"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -224.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_helicoming"/>
+					<entry key="subtitle_duration" type="number" value="7"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_helicoming"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="227" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_chopperhere"/>
+				<entry key="id" type="number" value="200118"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2686.4 -224.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/alex_chopperhere"/>
+					<entry key="subtitle_duration" type="number" value="2"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_chopperhere"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="10"/>
+				</entry>
+			</entry>
+			<entry index="228" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_chopperin"/>
+				<entry key="id" type="number" value="200119"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200120"/>
+						</entry>
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -349.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/alex_chopperin"/>
+					<entry key="subtitle_duration" type="number" value="1"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_chopperin"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="13"/>
+				</entry>
+			</entry>
+			<entry index="229" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_heliarrived"/>
+				<entry key="id" type="number" value="200120"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2686.4 -349.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_heliarrived"/>
+					<entry key="subtitle_duration" type="number" value="3"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_heliarrived"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="230" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_escape"/>
+				<entry key="id" type="number" value="200121"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -474.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_escape"/>
+					<entry key="subtitle_duration" type="number" value="4"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_escape"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="231" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_managerdead1"/>
+				<entry key="id" type="number" value="200122"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -774.95 1105.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_managerdead1"/>
+					<entry key="subtitle_duration" type="number" value="4"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_managerdead1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="232" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_managerdead2"/>
+				<entry key="id" type="number" value="200123"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -774.95 1055.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_managerdead2"/>
+					<entry key="subtitle_duration" type="number" value="3"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_managerdead2"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="233" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_managerdead3"/>
+				<entry key="id" type="number" value="200124"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -774.95 1005.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_managerdead3"/>
+					<entry key="subtitle_duration" type="number" value="2"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_managerdead3"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="234" type="table">
+				<entry key="class" type="string" value="ElementCustomSound"/>
+				<entry key="editor_name" type="string" value="vo_managerdead4"/>
+				<entry key="id" type="number" value="200125"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="override_others" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2786.4 -774.95 955.22"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_path" type="string" value="vo/day2/phann_managerdead4"/>
+					<entry key="subtitle_duration" type="number" value="4"/>
+					<entry key="subtitle_id" type="string" value="vo_day2_managerdead4"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_as_secondary" type="boolean" value="true"/>
+					<entry key="use_subtitles" type="boolean" value="true"/>
+					<entry key="volume_choice" type="string" value="sfx"/>
+					<entry key="volume_override" type="number" value="3"/>
+				</entry>
+			</entry>
+			<entry index="235" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="vo_random_managerdead"/>
+				<entry key="id" type="number" value="200126"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200122"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200123"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200124"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="200125"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-2724.97 -772.57 1162.41"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="236" type="table">
+				<entry key="class" type="string" value="ElementInvulnerable"/>
+				<entry key="editor_name" type="string" value="invulnerable"/>
+				<entry key="id" type="number" value="200127"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100039"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="immortal" type="boolean" value="false"/>
+					<entry key="invulnerable" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="278.849 -2717.44 588.472"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

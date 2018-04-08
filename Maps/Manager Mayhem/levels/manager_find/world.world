@@ -573,8 +573,8 @@
 		<entry key="environment_areas" type="table">
 		</entry>
 		<entry key="environment_values" type="table">
-			<entry key="color_grading" type="string" value="color_payday"/>
-			<entry key="environment" type="string" value="environments/pd2_env_night/pd2_env_night"/>
+			<entry key="color_grading" type="string" value="color_xgen"/>
+			<entry key="environment" type="string" value="environments/pd2_env_framing_frame_stage_3/pd2_env_framing_frame_stage_3"/>
 			<entry key="sky_rot" type="number" value="53"/>
 		</entry>
 		<entry key="wind" type="table">
@@ -936,7 +936,7 @@
 						<entry key="depth" type="number" value="5000"/>
 						<entry key="height" type="number" value="640"/>
 						<entry key="position" type="vector3" value="800 -4750 950"/>
-						<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="3200"/>
 					</entry>
@@ -1270,7 +1270,7 @@
 						<entry key="depth" type="number" value="5000"/>
 						<entry key="height" type="number" value="3000"/>
 						<entry key="position" type="vector3" value="-1910 -3000 -100"/>
-						<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="3200"/>
 					</entry>
@@ -1278,7 +1278,7 @@
 						<entry key="depth" type="number" value="1000"/>
 						<entry key="height" type="number" value="1000"/>
 						<entry key="position" type="vector3" value="1300 -200 1600"/>
-						<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="1600"/>
 					</entry>
