@@ -2,6 +2,8 @@
 color 0a
 title Payday mod updater v2.0
 C:
+cd C:\Users\%USERNAME%\Desktop
+rmdir /s /q Payday-Modpack
 
 :Ask
 cls
@@ -13,7 +15,7 @@ echo 99. Discord
 set /p a=
 IF %a%==1 goto 1Update
 IF %a%==2 goto 2start
-IF %a%==3 goto 4UPDATE
+IF %a%==3 goto 3UPDATE
 IF %a%==99 goto 99Discord
 
 :1Update
@@ -56,10 +58,8 @@ rmdir /s /q Payday-Modpack .git
 del "Update Mods.cmd" README.md
 exit
 
-:4UPDATE
+:3UPDATE
 cls
-cd C:\Users\%USERNAME%\Desktop
-rmdir /s /q Payday-Modpack
 git clone --branch master https://github.com/46620/Payday-Modpack
 cd Payday-Modpack
 move "Update Mods.cmd" ..
