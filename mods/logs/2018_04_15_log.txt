@@ -1,0 +1,274 @@
+09:46:09 PM Log:  (..\src\debug\blt_debug.cpp:113) Command line: "C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\payday2_win32_release.exe"
+09:46:09 PM Log:  (..\platform_src\signatures\signatures.cpp:225) Scanning for signatures in payday2_win32_release.exe
+09:46:09 PM WARNING:  (..\platform_src\signatures\signatures.cpp:189) Failed to locate function node_from_xml_vr
+09:46:10 PM WARNING:  (..\platform_src\signatures\signatures.cpp:189) Failed to locate function try_open_base_vr
+09:46:10 PM WARNING:  (..\platform_src\signatures\signatures.cpp:189) Failed to locate function luaL_newstate_vr
+09:46:10 PM Log:  (..\platform_src\signatures\signatures.cpp:256) Scanned for 46 signatures in 1015 milliseconds with 0 cache misses
+09:46:10 PM Log:  (..\src\InitiateState.cpp:732) Initiating Hook
+09:46:12 PM Log:  (..\src\tweaker\wrenloader.cpp:28) [WREN] XML-Tweaking Bundle File ef0953d4112bbb36.5438de50d62a13f2
+09:46:13 PM Log:  (..\src\http\http.cpp:43) CURL_INITD
+09:46:13 PM Log:  (..\src\InitiateState.cpp:732) Initiating Hook
+09:46:13 PM Lua: [BLT] Setup...
+09:46:13 PM Lua: [BLT] Loading module: 	BLTLogs
+09:46:13 PM Lua: [BLT] Loading module: 	BLTModManager
+09:46:13 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+09:46:13 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+09:46:13 PM Lua: [BLT] Loading module: 	BLTLocalization
+09:46:13 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+09:46:13 PM Lua: [BLT] Removing log:	2018_04_14_log.txt
+09:46:13 PM Lua: [BLT] Loading mods for state: table: 0x001c89c0
+09:46:13 PM Lua: [BLT] Loading mod: Adva Asault Info Wolfhud Standalone
+09:46:13 PM Lua: [BLT] Loading mod: base
+09:46:13 PM Lua: [BLT] Loading mod: BeardLib
+09:46:13 PM Lua: [BLT] Loading mod: BigLobby3
+09:46:13 PM Lua: [BLT] Loading mod: Carry-Stacker-Reloaded (MODDED)
+09:46:13 PM Lua: [BLT] Loading mod: Civilian Marking in Stealth
+09:46:13 PM Lua: [BLT] Loading mod: Faster Perk Deck Allocation
+09:46:13 PM Lua: [BLT] Loading mod: FreeFlightCamera
+09:46:13 PM Lua: [BLT] Loading mod: HoloInfo
+09:46:13 PM Lua: [BLT] Loading mod: HopLib
+09:46:13 PM Lua: [BLT] Loading mod: Lobby Player Info
+09:46:13 PM Lua: [BLT] Loading mod: Mod List Lite
+09:46:13 PM Lua: [BLT] Loading mod: Money In Hud
+09:46:13 PM Lua: [BLT] Loading mod: Official Gage Shop
+09:46:13 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+09:46:13 PM Lua: [BLT] Loading mod: Press2hold
+09:46:13 PM Lua: [BLT] Loading mod: Remove AI Name Panel
+09:46:13 PM Lua: [BLT] Loading mod: Remove Teammates Name
+09:46:13 PM Lua: [BLT] Loading mod: Remove Teammates Outline
+09:46:13 PM Lua: [BLT] Loading mod: StraightToMainMenu
+09:46:13 PM Lua: [BLT] Setting up mod: 	base
+09:46:13 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+09:46:13 PM Lua: [BLT] Setting up mod: 	BeardLib
+09:46:13 PM Lua: [BLT] Setting up mod: 	HopLib
+09:46:13 PM Lua: [BLT] Setting up mod: 	BigLobby3
+09:46:13 PM Lua: [BLT] Setting up mod: 	Press2hold
+09:46:13 PM Lua: [BLT] Setting up mod: 	StraightToMainMenu
+09:46:13 PM Lua: [BLT] Setting up mod: 	Remove Teammates Name
+09:46:13 PM Lua: [BLT] Setting up mod: 	Remove Teammates Outline
+09:46:13 PM Lua: [BLT] Setting up mod: 	HoloInfo
+09:46:13 PM Lua: [BLT] Setting up mod: 	Remove AI Name Panel
+09:46:13 PM Lua: [BLT] Setting up mod: 	FreeFlightCamera
+09:46:13 PM Lua: [BLT] Setting up mod: 	Carry-Stacker-Reloaded (MODDED)
+09:46:13 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+09:46:13 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+09:46:13 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+09:46:13 PM Lua: [BLT] Setting up mod: 	Official Gage Shop
+09:46:13 PM Lua: [BLT] Setting up mod: 	Money In Hud
+09:46:13 PM Lua: [BLT] Setting up mod: 	Faster Perk Deck Allocation
+09:46:13 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+09:46:13 PM Lua: [BLT] Setting up mod: 	Civilian Marking in Stealth
+09:46:13 PM Lua: [BLT] Setting up mod: 	Adva Asault Info Wolfhud Standalone
+09:46:13 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to [
+09:46:13 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to ]
+09:46:13 PM Log:  (..\src\InitiateState.cpp:732) Initiating Hook
+09:46:13 PM Lua: [BLT] Setup...
+09:46:13 PM Lua: [BLT] Loading module: 	BLTLogs
+09:46:13 PM Lua: [BLT] Loading module: 	BLTModManager
+09:46:13 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+09:46:13 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+09:46:13 PM Lua: [BLT] Loading module: 	BLTLocalization
+09:46:13 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+09:46:13 PM Lua: [BLT] Loading mods for state: table: 0x001c89a0
+09:46:13 PM Lua: [BLT] Loading mod: Adva Asault Info Wolfhud Standalone
+09:46:13 PM Lua: [BLT] Loading mod: base
+09:46:13 PM Lua: [BLT] Loading mod: BeardLib
+09:46:13 PM Lua: [BLT] Loading mod: BigLobby3
+09:46:13 PM Lua: [BLT] Loading mod: Carry-Stacker-Reloaded (MODDED)
+09:46:13 PM Lua: [BLT] Loading mod: Civilian Marking in Stealth
+09:46:13 PM Lua: [BLT] Loading mod: Faster Perk Deck Allocation
+09:46:13 PM Lua: [BLT] Loading mod: FreeFlightCamera
+09:46:13 PM Lua: [BLT] Loading mod: HoloInfo
+09:46:13 PM Lua: [BLT] Loading mod: HopLib
+09:46:13 PM Lua: [BLT] Loading mod: Lobby Player Info
+09:46:13 PM Lua: [BLT] Loading mod: Mod List Lite
+09:46:13 PM Lua: [BLT] Loading mod: Money In Hud
+09:46:13 PM Lua: [BLT] Loading mod: Official Gage Shop
+09:46:13 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+09:46:13 PM Lua: [BLT] Loading mod: Press2hold
+09:46:13 PM Lua: [BLT] Loading mod: Remove AI Name Panel
+09:46:13 PM Lua: [BLT] Loading mod: Remove Teammates Name
+09:46:13 PM Lua: [BLT] Loading mod: Remove Teammates Outline
+09:46:13 PM Lua: [BLT] Loading mod: StraightToMainMenu
+09:46:13 PM Lua: [BLT] Setting up mod: 	base
+09:46:13 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+09:46:13 PM Lua: [BLT] Setting up mod: 	BeardLib
+09:46:13 PM Lua: [BLT] Setting up mod: 	HopLib
+09:46:13 PM Lua: [BLT] Setting up mod: 	BigLobby3
+09:46:13 PM Lua: [BLT] Setting up mod: 	Press2hold
+09:46:13 PM Lua: [BLT] Setting up mod: 	StraightToMainMenu
+09:46:13 PM Lua: [BLT] Setting up mod: 	Remove Teammates Name
+09:46:13 PM Lua: [BLT] Setting up mod: 	Remove Teammates Outline
+09:46:13 PM Lua: [BLT] Setting up mod: 	HoloInfo
+09:46:13 PM Lua: [BLT] Setting up mod: 	Remove AI Name Panel
+09:46:13 PM Lua: [BLT] Setting up mod: 	FreeFlightCamera
+09:46:13 PM Lua: [BLT] Setting up mod: 	Carry-Stacker-Reloaded (MODDED)
+09:46:13 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+09:46:13 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+09:46:13 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+09:46:13 PM Lua: [BLT] Setting up mod: 	Official Gage Shop
+09:46:13 PM Lua: [BLT] Setting up mod: 	Money In Hud
+09:46:13 PM Lua: [BLT] Setting up mod: 	Faster Perk Deck Allocation
+09:46:13 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+09:46:13 PM Lua: [BLT] Setting up mod: 	Civilian Marking in Stealth
+09:46:13 PM Lua: [BLT] Setting up mod: 	Adva Asault Info Wolfhud Standalone
+09:46:13 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to [
+09:46:13 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to ]
+09:46:14 PM Lua: [BeardLib] Loaded Config: Maps/FunBank
+09:46:14 PM Lua: [BeardLib] Loaded Config: Maps/Manager Mayhem
+09:46:14 PM Lua: step: 0
+09:46:14 PM Lua: step: 18.4375
+09:46:14 PM Lua: step: 36.875
+09:46:14 PM Lua: step: 55.3125
+09:46:14 PM Lua: step: 73.75
+09:46:14 PM Lua: step: 92.1875
+09:46:14 PM Lua: step: 110.625
+09:46:14 PM Lua: step: 129.0625
+09:46:14 PM Lua: step: 147.5
+09:46:14 PM Lua: step: 165.9375
+09:46:14 PM Lua: step: 184.375
+09:46:14 PM Lua: step: 202.8125
+09:46:14 PM Lua: step: 221.25
+09:46:14 PM Lua: step: 239.6875
+09:46:14 PM Lua: step: 258.125
+09:46:14 PM Lua: step: 276.5625
+09:46:14 PM Lua: step: 295
+09:46:14 PM Log:  (..\src\InitiateState.cpp:732) Initiating Hook
+09:46:14 PM Lua: [BLT] Setup...
+09:46:14 PM Lua: [BLT] Loading module: 	BLTLogs
+09:46:14 PM Lua: [BLT] Loading module: 	BLTModManager
+09:46:14 PM Lua: [BLT] Loading module: 	BLTKeybindsManager
+09:46:14 PM Lua: [BLT] Loading module: 	BLTPersistScripts
+09:46:14 PM Lua: [BLT] Loading module: 	BLTLocalization
+09:46:14 PM Lua: [BLT] Cleaning logs folder, lifetime 1 day(s)
+09:46:14 PM Lua: [BLT] Loading mods for state: table: 0x2e9367c0
+09:46:14 PM Lua: [BLT] Loading mod: Adva Asault Info Wolfhud Standalone
+09:46:14 PM Lua: [BLT] Loading mod: base
+09:46:14 PM Lua: [BLT] Loading mod: BeardLib
+09:46:14 PM Lua: [BLT] Loading mod: BigLobby3
+09:46:14 PM Lua: [BLT] Loading mod: Carry-Stacker-Reloaded (MODDED)
+09:46:14 PM Lua: [BLT] Loading mod: Civilian Marking in Stealth
+09:46:14 PM Lua: [BLT] Loading mod: Faster Perk Deck Allocation
+09:46:14 PM Lua: [BLT] Loading mod: FreeFlightCamera
+09:46:14 PM Lua: [BLT] Loading mod: HoloInfo
+09:46:14 PM Lua: [BLT] Loading mod: HopLib
+09:46:14 PM Lua: [BLT] Loading mod: Lobby Player Info
+09:46:14 PM Lua: [BLT] Loading mod: Mod List Lite
+09:46:14 PM Lua: [BLT] Loading mod: Money In Hud
+09:46:14 PM Lua: [BLT] Loading mod: Official Gage Shop
+09:46:14 PM Lua: [BLT] Loading mod: PD2-Lobby-Tools-1.2
+09:46:14 PM Lua: [BLT] Loading mod: Press2hold
+09:46:14 PM Lua: [BLT] Loading mod: Remove AI Name Panel
+09:46:14 PM Lua: [BLT] Loading mod: Remove Teammates Name
+09:46:14 PM Lua: [BLT] Loading mod: Remove Teammates Outline
+09:46:14 PM Lua: [BLT] Loading mod: StraightToMainMenu
+09:46:14 PM Lua: [BLT] Setting up mod: 	base
+09:46:14 PM Lua: [BLT] Setting up mod: 	Mod List Lite
+09:46:14 PM Lua: [BLT] Setting up mod: 	BeardLib
+09:46:14 PM Lua: [BLT] Setting up mod: 	HopLib
+09:46:14 PM Lua: [BLT] Setting up mod: 	BigLobby3
+09:46:14 PM Lua: [BLT] Setting up mod: 	Press2hold
+09:46:14 PM Lua: [BLT] Setting up mod: 	StraightToMainMenu
+09:46:14 PM Lua: [BLT] Setting up mod: 	Remove Teammates Name
+09:46:14 PM Lua: [BLT] Setting up mod: 	Remove Teammates Outline
+09:46:14 PM Lua: [BLT] Setting up mod: 	HoloInfo
+09:46:14 PM Lua: [BLT] Setting up mod: 	Remove AI Name Panel
+09:46:14 PM Lua: [BLT] Setting up mod: 	FreeFlightCamera
+09:46:14 PM Lua: [BLT] Setting up mod: 	Carry-Stacker-Reloaded (MODDED)
+09:46:14 PM Lua: [BLT] Setting up mod: 	PD2-Lobby-Tools-1.2
+09:46:14 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_forceready]
+09:46:14 PM Lua: [Keybind] Registered keybind [BLTKeybind lobbytools_keybind_instantrestart]
+09:46:14 PM Lua: [BLT] Setting up mod: 	Official Gage Shop
+09:46:14 PM Lua: [BLT] Setting up mod: 	Money In Hud
+09:46:14 PM Lua: [BLT] Setting up mod: 	Faster Perk Deck Allocation
+09:46:14 PM Lua: [BLT] Setting up mod: 	Lobby Player Info
+09:46:14 PM Lua: [BLT] Setting up mod: 	Civilian Marking in Stealth
+09:46:14 PM Lua: [BLT] Setting up mod: 	Adva Asault Info Wolfhud Standalone
+09:46:14 PM Lua: [Keybind] Bound lobbytools_keybind_forceready to [
+09:46:14 PM Lua: [Keybind] Bound lobbytools_keybind_instantrestart to ]
+09:46:16 PM Lua: [Error] Could not load file: mods/Carry-Stacker-Reloaded (MODDED)/menu/options.txt
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://api.modwork.shop/api.php?command=CompareVersion&did=14924&vid=2.97&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 328
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://api.modwork.shop/api.php?command=CompareVersion&did=21842&vid=1.3.1&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 329
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://api.modwork.shop/api.php?command=CompareVersion&did=20439&vid=2&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 330
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://api.modwork.shop/api.php?command=CompareVersion&did=21421&vid=1&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 331
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://api.modwork.shop/api.php?command=CompareVersion&did=21420&vid=3&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 332
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://api.modwork.shop/api.php?command=CompareVersion&did=21436&vid=1&steamid=76561198104406897&token=Je3KeUETqqym6V8b5T7nFdudz74yWXgU - 333
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://znix.xyz/paydaymods/updates/meta.php?id=payday2blt - 658
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) https://znix.xyz/paydaymods/updates/meta.php?id=payday2bltdll - 655
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=mll - 661
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=hoplib - 673
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=resmod-biglobby - 674
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=straighttomainmenu - 675
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=lobbytools - 676
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=MIH - 677
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=perk-allocation - 678
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Log:  (..\src\InitiateState.cpp:379) Incoming HTTP Request/Request
+09:46:17 PM Log:  (..\src\InitiateState.cpp:393) http://api.paydaymods.com/updates/retrieve/?mod[0]=LPI - 679
+09:46:17 PM Log:  (..\src\http\http.cpp:143) Launching Async HTTP Thread
+09:46:17 PM Lua: [Updates] Received update data for 'payday2blt'
+09:46:17 PM Lua: [Updates] Received update data for 'payday2bltdll'
+09:46:17 PM Lua: [Updates] Received update data for 'perk-allocation'
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: nil
+ Local: ffdf1c4c8ace9c2112831b8f519f1ee6651f74b06e9183f73d9f698f201390b1
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: 3461e13ed4073c8d9e397de5e7499a97f8114b3013ee3c5e8debd3dfc7d747a7
+ Local: 3461e13ed4073c8d9e397de5e7499a97f8114b3013ee3c5e8debd3dfc7d747a7
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: 8f6b1ef4700af2b1fe73ea837e22b8816ac7b39dcbb38ce8092aadb8c581a251
+ Local: 8f6b1ef4700af2b1fe73ea837e22b8816ac7b39dcbb38ce8092aadb8c581a251
+09:46:18 PM Lua: [Updates] Received update data for 'MIH'
+09:46:18 PM Lua: [Updates] Received update data for 'LPI'
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: db53f3ec02847fc8d587abfd97b6fb0c0782cd140fc2c580f8a70a1b769f63b4
+ Local: db53f3ec02847fc8d587abfd97b6fb0c0782cd140fc2c580f8a70a1b769f63b4
+09:46:18 PM Lua: [Updates] Received update data for 'straighttomainmenu'
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: nil
+ Local: bf53ce9551f529c23874e7e22b711d56ba7f0d8db26a58f399ff8fbf6e0ed5e9
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: 9ed23fe0ea2a4e1ca5413d8752cbe5338e3519cc57200589c1a66524fac10575
+ Local: 9ed23fe0ea2a4e1ca5413d8752cbe5338e3519cc57200589c1a66524fac10575
+09:46:18 PM Lua: [Updates] Received update data for 'mll'
+09:46:18 PM Lua: [Updates] Received update data for 'lobbytools'
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: 87d1b7518579d268b42864580bc8f512d741c768f6a95581a04145a41747d8c3
+ Local: 87d1b7518579d268b42864580bc8f512d741c768f6a95581a04145a41747d8c3
+09:46:18 PM Lua: [Updates] Received update data for 'hoplib'
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: nil
+ Local: 1d8c0d5a3674022aec5a41fed707e5bd0da9601a9f7e1d5922c476a94fbea06e
+09:46:18 PM Lua: [Updates] Comparing hash data:
+Server: d2d05cfe5438b7a42476cb1a7a476b3660eda1949f4d16db97f620ff25625d0f
+ Local: d2d05cfe5438b7a42476cb1a7a476b3660eda1949f4d16db97f620ff25625d0f
+09:46:28 PM Log:  (..\src\http\http.cpp:48) CURL CLOSED
