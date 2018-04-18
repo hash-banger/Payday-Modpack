@@ -33,7 +33,6 @@ DISCORD (46620#1925) IF YOU CAN HELP MAKE AN INSTALLER THERE!**
 
 ### mod_overrides
 
-   - Cloakers, Oh yeah Mr Krabs
    - Uh dude that would be **S A L T**
    - HD Anno Pickup - PDTH style
 
