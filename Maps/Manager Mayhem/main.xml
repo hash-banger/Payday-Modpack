@@ -6,9 +6,9 @@
 		<hook file="hooks/CrimeSpreeHook.lua" source_file="lib/tweak_data/crimespreetweakdata"/>
 	</Hooks>
 	<AddFiles>
-		<texture force="true" path="assets/guis/loading/broker"/>
-		<texture force="true" path="assets/guis/loading/day1"/>
-		<texture force="true" path="assets/guis/loading/day2"/>
+		<texture force="true" path="assets/guis/loading/manmay_broker"/>
+		<texture force="true" path="assets/guis/loading/manmay_day1"/>
+		<texture force="true" path="assets/guis/loading/manmay_day2"/>
 		<movie force="true" path="vo/day1/briefing"/>
 		<movie force="true" path="vo/day1/connor_arrival"/>
 		<movie force="true" path="vo/day1/connor_wait1"/>
@@ -72,7 +72,7 @@
 		<movie force="true" path="vo/day2/phann_powerdown"/>
 		<movie force="true" path="vo/day2/phann_spawn"/>
 	</AddFiles>
-	<narrative briefing_event="" contact="quackertree" icon="assets/guis/loading/broker" id="manager_mayhem">
+	<narrative briefing_event="" contact="quackertree" icon="assets/guis/loading/manmay_broker" id="manager_mayhem">
 		<chain>
 			<table level_id="manager_find" type="d" type_id="heist_type_assault"/>
 			<table level_id="manager_get" type="d" type_id="heist_type_assault"/>
@@ -132,7 +132,7 @@
 			<value_node value="600000"/>
 		</payout>
 	</narrative>
-	<level ai_group_type="america" id="manager_get" load_screen="assets/guis/loading/day2" max_bags="0">
+	<level ai_group_type="america" id="manager_get" load_screen="assets/guis/loading/manmay_day2" max_bags="0">
 		<add file="levels/manager_get/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -177,7 +177,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" ghost_bonus="0.15" id="manager_find" load_screen="assets/guis/loading/day1" max_bags="7">
+	<level ai_group_type="america" ghost_bonus="0.15" id="manager_find" load_screen="assets/guis/loading/manmay_day1" max_bags="7">
 		<add file="levels/manager_find/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -225,5 +225,5 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<AssetUpdates id="20439" provider="modworkshop" use_local_dir="true" version="1.6"/>
+	<AssetUpdates id="20439" provider="modworkshop" use_local_dir="true" version="2.0"/>
 </table>
