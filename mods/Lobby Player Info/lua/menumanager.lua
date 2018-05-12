@@ -249,42 +249,6 @@ Hooks:Add('MenuManagerInitialize', 'MenuManagerInitialize_LobbyPlayerInfo', func
 
 end)
 
-Hooks:Add('MenuManagerBuildCustomMenus', 'MenuManagerBuildCustomMenus_LobbyPlayerInfo', function(menu_manager, nodes)
-	if LobbyPlayerInfo.settings.team_skills_mode == 1 then
-		-- Nothing
-	elseif nodes.lobby then
-		local fbi_node, mutators, story_line
-
-		for _, v in pairs(nodes.lobby._items) do
-			if v._parameters.name == 'fbi_files' then
-				fbi_node = v
-			elseif v._parameters.name == 'mutators' then
-				mutators = v
-			elseif v._parameters.name == 'story_missions' then
-				story_line = v
-			end
-		end
-
-		-- remove "fbi file" (can be accessed by clicking on a teammate's name)
-		if fbi_node then
-			table.delete(nodes.lobby._items, fbi_node)
-		end
-
-		-- remove "story line" (can be accessed via crimenet)
-		if story_line then
-			table.delete(nodes.lobby._items, story_line)
-		end
-
-		-- move "mutators" in "edit game settings"
-		if mutators then
-			if table.contains(nodes.lobby._items, mutators) then
-				table.delete(nodes.lobby._items, mutators)
-				table.insert(nodes.edit_game_settings._items, mutators)
-			end
-		end
-	end
-end)
-
 local lpi_original_menumanager_pushtotalk = MenuManager.push_to_talk
 function MenuManager:push_to_talk(enabled)
 	lpi_original_menumanager_pushtotalk(self, enabled)
