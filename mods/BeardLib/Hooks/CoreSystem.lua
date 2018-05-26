@@ -30,6 +30,30 @@ overwrite_meta_function(World, "spawn_unit", function(self, unit_name, ...)
 	return self:_spawn_unit(unit_name, ...)
 end)
 
+local ids_effect = Idstring("effect")
+local key_effect = ids_effect:key()
+overwrite_meta_function(World:effect_manager(), "spawn", function(self, data, ...)
+	if Global.fm.added_files[key_effect] then
+		local file = Global.fm.added_files[key_effect][data.effect:key()]
+		if file then
+			FileManager:LoadAsset(ids_effect, data.effect, file)
+		end
+	end
+	return self:_spawn(data, ...)
+end)
+
+local ids_massunit = Idstring("massunit")
+local key_massunit = ids_massunit:key()
+overwrite_meta_function(MassUnitManager, "load", function(self, path, ...)
+	if Global.fm.added_files[key_massunit] then
+		local file = Global.fm.added_files[key_massunit][path:key()]
+		if file then
+			FileManager:LoadAsset(ids_massunit, path, file)
+		end
+	end
+	return self:_load(path, ...)
+end)
+
 overwrite_meta_function(PackageManager, "unit_data", function(self, unit_name, ...)
 	if unit_name and Global.fm.added_files[key_unit] then
 		local file = Global.fm.added_files[key_unit][tostring(unit_name:key())]
